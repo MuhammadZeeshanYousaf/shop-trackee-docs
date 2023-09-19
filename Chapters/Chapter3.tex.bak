@@ -1,0 +1,55 @@
+% Chapter 1
+
+\chapter{Problem Description and Formulation} % Main chapter title
+
+\label{Chapter3} % For referencing the chapter elsewhere, use \ref{Chapter1}
+
+\lhead{Chapter 3. \emph{Problem Description and Formulation}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+\section{Problem Description}
+In this chapter we introduced the problem of optimization of multi robot concurrent activities. Our aim is to optimize the track for robots to accomplish their activity by avoiding collisions during the way. Working with robotics has been concerned with maintaining the safety of robot while moving in the dynamic environment. Multi robot tasks have been limited to path tracking while avoiding the obstacles along the way. Temporal logics are very effective for the systems in which reactive mission and motion planning is more considerable. Robots can follow a given trajectory and if any abnormal activity occurs, then such cases are handled by generating the transition systems according to the situation. Lets understand the problem with an example, in a stock handling network the mission is to keep collecting the data while obeying the safety rules and repeated task is to pick the data after that drop it at the delivering point.
+
+\subsection{Specification of Task Planning}
+In this section the problem is introduced to be solved in the rest of the chapters. Let there is an LTL formula $\varphi$ over $\Pi$,  to model the team we have transition system $T_1$,$T_2$,\dots,$T_n$ having uncertain travelling times, they generate individual runs and all robots minimizes the time function $C(\mathbb{T})$ containing the constraints that satisfies the mission $\varphi$ in case of uncertain travelling times. We understand the problem with the help of a graph.
+\begin{center}
+  G = (V, e, $\Pi$, L)
+\end{center}
+G is a graph where V is the set of vertices, e $\subseteq$ V $\times$ V is the set of edges, $\Pi$ is the set of atomic propositions that are satisfied at vertices. Consider the given figure 3.1 modeling of the environment in which robots are moving. Each robot has its region and these regions are modelled with vertices where the edges are connections between the regions.
+
+\hspace{10pt}
+\begin{figure}[h]
+  \centering
+\includegraphics[width=13cm, height=10cm]{TSmodel} \\
+\caption{Environment Modelling}
+\end{figure}
+
+A team of three robots moving in an environment that is modelled by G. Motion primitives of robots are given by the transition system \textbf{T}=($Q_T$, $q^0_T$, $\delta_T$, $\Pi_T$, $L_T$, $w_T$), where $Q_T$$\subseteq$V, $q^0_T$ is the initial vertex, $\delta_T$$\subseteq$e is a relation that models the capabilities of robot to move along the vertices, $\Pi_T$$\subseteq$$\Pi$ presents the set of propositions that a robot satisfies, $L_T$ is mapping that how propositions are satisfied at some vertex and $w_T$ is weight that a robot went from one vertex to another.
+
+\subsection{Formulation of Robotic Mission}
+Let us consider a case where robots team have to accomplish a mission and to achieve the given target. We represents an optimizing proposition $\sigma$ $\epsilon$ $\Pi$ corresponding to particular task that is repeated infinitely often and situation is represented with LTL formula:
+\begin{equation}
+    \phi := \psi \wedge GF \sigma
+\end{equation}
+Here $\phi$ represents mission specification, the LTL formula over $\Pi$ is $\psi$ and GF$\sigma$ represents that the $\sigma$ which is a proposition satisfied repeatedly. To define the behaviour of robots the infinite sequence is defined as $\mathbb{T}$ = \{$\mathbb{T}(1)$, $\mathbb{T}(2)$,\dots\}, here $\mathbb{T}(k)$ is the instance of time when $\sigma$ is satisfied for the $k^{th}$ time by the robots.
+
+As the implementation of the solution is more concerned with respect to the activity management of the robots then there are two possibilities:
+\begin{enumerate}
+  \item The first is when the weight of every robot for each transition is exactly according to the modelled plan. This maps to the case when a robot follows a given trajectory and the planned run is identical to the actual time when deployed in the environment.
+  \item In this case when uncertainty occurs and planned situation is not identical to the actual time, then to cope up with this problem we have different strategies like cost function;
+      \begin{equation}
+    C(\mathbb{T}) = \lim_{k \to + \infty} (\mathbb{T}(k+1)-\mathbb{T}(k))
+\end{equation}
+When robot don't follow the track exactly then the order of generated words $\omega_team'$ is not exactly the planned word $\omega_team$ but the traces equivalent to it $\omega_team'$ $\in$ $\omega_team$, it's because of the switching of the proposition during the deployment.
+\end{enumerate}
+\section{Flow of the process}
+In Figure 3.2 the over view of our approach is shown.
+\begin{figure}[h]
+\centering
+  \includegraphics[width=13cm, height=15cm]{overview}\\
+  \caption{Flow of our approach}
+\end{figure}
+
+
+

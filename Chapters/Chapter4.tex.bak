@@ -1,0 +1,209 @@
+% Chapter 4
+
+\chapter{Implementation and Evaluation} % Main chapter title
+
+\label{Chapter4} % For referencing the chapter elsewhere, use \ref{Chapter1}
+
+\lhead{Chapter 4. \emph{Implementation and Evaluation}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+\section{Development Stages }
+the following ...
+\subsection{Stage abc..}
+\subsection{Stage def..}
+Another sample for Table 
+\begin{tabular}{ |p{12cm}| }
+ \hline
+  \textbf{Algorithm 1:} Group-TS  \\ \hline
+\textbf{ Input:} Transition system of each member \{$T_1$, $T_2$, $T_3$\}. \\
+  \textbf{Output:} Combined Transition System of members that is \textbf{T}.
+  \begin{enumerate}
+    \item Let m = 1, 2, 3
+    \item $q^0_T$ = $q^0_m$.
+    \item recursive search on \textbf{T} starting from initial state ($q^0_T$).
+    \item $q_m$ $\in$ q.
+    \item The transition of $T_m$ is defined as $\rightarrow_m$. where $\rightarrow_m$ = (q,q')
+    \item $\tau$ : set of possible transitions and $\rightarrow_m$ $\in$ $\tau$ then do.
+    \item $\omega$ = minimum weight of $\rightarrow_m$ when the robot finds some region.
+    \item Find new state of transition system that is q' and if q' not exists then.
+    \item Insert the state q' to \textbf{T}.
+    \item Insert new transition to $\delta_T$ with assigning the weight $\omega$. where $\delta_T$ is the set of transitions.
+    \item prolong search from new state q'
+    \item else if there is no transition for (q,q') then
+    \item Include transition that is from (q,q') to $\delta_T$ with assigning the weight $\omega$
+  \end{enumerate}
+ \\ \hline
+\end{tabular}
+
+\vspace{20pt}
+ In the algorithm.1 a recursive depth first search is shown that begins at initial state of group transition system \textbf{T}. We define the $q^0_T$ as the tuple of initial states of m transition systems. For a state of \textbf{T} the dfs function generates all possible transitions. The current state is showed by $i_th$ element and all possible going out transitions from this state are considered in the tuple that we construct. Each tuple is processed one by one and $\rightarrow_i$ is a transition that being taken at the current state which is $i_th$ state of $T_i$. Let us suppose that the source and destination states of $\rightarrow_i$ are $q_i$ and $q_i$' and $\omega$ is the weight between these states. When all states and transitions have been discovered then this algorithm will stop it's searching for the transition system \textbf{T}.
+\section{Optimized Solution}
+In this section the system for the team of robots in the specific environment is elaborated. Given the individual systems of robots as \{$T_1$,\dots,$T_m$\}. The algorithm.1 is used to construct the group transition system \textbf{T} that capture all the serialized moves of robots. The joint behaviour of robots is presented in this section in the form of an automaton and then optimal run table is generated that shows the results after running the automaton.
+
+\hspace{10pt}
+\begin{figure}[h]
+  \centering
+\includegraphics[width=5cm, height=6cm]{ts1} \\
+\caption{Transition system of robot 1}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+\includegraphics[width=8cm, height=6.5cm]{ts2} \\
+\caption{Transition system of robot 2}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+\includegraphics[width=8cm, height=6cm]{ts3} \\
+\caption{Transition system of robot 3}
+\end{figure}
+
+As shown in the above automaton, figure 4.1, 4.2 and 4.3 are the transition systems of three robots that are in a network with four vertices. The states are represented as \{$q_0$,$q_1$,$q_2$,$q_3$\} and their motion capabilities are shown by edges. The weights represent travelling time between two states.
+
+\begin{figure}[h]
+  \centering
+\includegraphics[width=11.5cm, height=7.5cm]{ts4} \\
+\caption{Grouped Transition System}
+\end{figure}
+
+In figure 4.4 a transition system \textbf{T} shows the group automaton that capturing the behavior of three robots that is combined in 6 states. The state ($q_0$,$q_1$,$q_2$) means that the first robot is at location $q_0$, second robot is at $q_1$ and third robot is at region $q_2$. The state $q_1$$q_0$1,$q_2$,$q_3$ shows that first robot has completed its move from $q_1$ to $q_0$ for one time unit, second robot is at $q_2$ and third robot is at region $q_3$.
+
+Now to generate $r*_{group}$ that is an optimal satisfying run on \textbf{T}. For individual transition systems we obtain $r*_{group}$ by projection on \textbf{T} and the optimal runs \{$r_1$*, $r_2$*, \dots, $r_m$*\} of robots are shown in the Table 4.1. By running the transition system \textbf{T} given in above automaton, and the formula $\phi$ := $\psi$$\wedge$GF$\sigma$ results in optimal run.
+
+\begin{table}[h]
+\centering
+\caption{\textbf{(a)} Results after running the Transition System} % title of Table\addtolength{\tabcolsep}
+\addtolength{\tabcolsep}{-2pt}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|} % centered columns (9 columns)
+\hline %inserts double horizontal lines
+$\mathbb{T}$ & 0 & 2 & 3 & 4 & 6 & 8 & 10 & \dots \\  [2ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+$r*_{group}$ & $q_0$,$q_0$,$q_0$ & $q_1$,$q_1$,$q_1$ & $q_1$$q_0$1,$q_2$,$q_3$ & $q_0$,$q_1$,$q_2$ & $q_1$,$q_0$,$q_3$ & $q_0$,$q_1$,$q_2$ & $q_1$,$q_0$,$q_3$ & \dots \\ [2ex] % inserting body of the table
+$L_T$(.) & . & $p_1$,$p_2$,$p_4$,$\sigma$ & $p_3$,$p_5$ & $p_2$,$p_6$,$\sigma$ & $p_1$,$p_5$,$\sigma$ & $p_2$,$p_6$,$\sigma$ & $p_1$,$p_5$,$\sigma$ & \dots \\ [1.5ex]
+$r_1$* & $q_0$ & $q_1$ & . & $q_0$ & $q_1$ & $q_0$ & $q_1$ & \dots \\ [2ex]
+$r_2$* & $q_0$ & $q_1$ & $q_2$ & $q_1$ & $q_0$ & $q_1$ & $q_0$ & \dots \\ [2ex]
+$r_3$* & $q_0$ & $q_1$ & $q_3$ & $q_1$ & $q_0$ & $q_1$ & $q_0$ & \dots \\ [2ex] % [1ex] adds vertical space
+\hline %inserts single line
+\end{tabular}
+\label{table:nonlin} % is used to refer this table in the text
+\end{table}
+
+We assume in Table 4.1 the first row shows the time when the transition occur, second row represents the run $r*_{group}$, third row corresponds to the satisfied propositions, and last three rows shows the separate run of these three robots. We observed in the optimal run that ($q_0$,$q_0$,$q_0$), ($q_1$,$q_1$,$q_1$), ($q_1$$q_0$1,$q_2$,$q_3$) is prefix and ($q_0$,$q_1$,$q_2$), ($q_1$,$q_0$,$q_3$) is suffix cycle and that will be repeated an infinite number of times. The given time which satisfies the $\sigma$ is $\mathbb{T^\sigma}$ = \{2,4,6,8,10,\dots\} and the function defined in (3.2) is $C(\mathbb{T})$ = 2.
+
+Now, the time sequence when $\sigma$ is repeatedly satisfied is $\mathbb{T^\sigma}$ = \{2,4,6,8,10,\dots\} and cost function is given as;
+
+ \hspace{30pt}  $C(\mathbb{T})$ = $\lim_{k\to+\infty}$ ($\mathbb{T}$(k+1) - $\mathbb{T}$(k))
+
+\hspace{30pt}  = $\mathbb{T}$(k+1) - $\mathbb{T}$(k)
+
+\hspace{30pt}  = 4 - 2 = 2
+
+ As $C(\mathbb{T})$ = 2 is the obtained function where the $\sigma$ is repeatedly satisfied. At t=3, robot2 has reached at $q_2$ while the robot1 is still moving from $q_1$ to $q_0$, therefore $r_1$* has no correlated state to t=3.
+
+ \subsection{Accurate Specified Run}
+ In Algorithm.2 the exact solution is summarized and it shows that a particular solution is given to a specified problem for that case where robots have exact time information.
+
+\begin{center}
+\begin{tabular}{ |p{12cm}| }
+ \hline
+ \textbf{Algorithm 2:} Accurate-Run \\ \hline
+\textbf{ Input:} \{$T_1$,$T_2$, $T_3$\} \& LTL formula $\phi$. \\
+  \textbf{Result:} Different runs of each system in the form \{$r_1$*,$r_2$*,$r_3$*\} that satisfies $\phi$.
+  \begin{enumerate}
+    \item n = 1, 2, 3
+    \item Model the group transition system \textbf{T}.
+    \item Now search runs $r*_{group}$ for the system as done in Table.1.
+    \item Trace runs $r*_{group}$ on the transition systems $T_n$ to obtain the runs $r_n$*.
+    \item Then find obtained function where $\sigma$ is satisfied.
+  \end{enumerate}
+ \\
+ \hline
+\end{tabular}
+\end{center}
+
+As the grouped transition system \textbf{T} is constructed by using Algorithm.1 to model the team. After that we obtain a run $r*_{group}$ on \textbf{T} that satisfies the LTL formula.
+
+\vspace{10pt}
+\begin{table}[h]
+\centering
+\caption{\textbf{(b)} Results after running the Transition System} % title of Table
+\addtolength{\tabcolsep}{-6pt}
+\small
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|} % centered columns (9 columns)
+\hline %inserts double horizontal lines
+$\mathbb{T}$ & 0 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & \dots \\  [2ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+$r*_{group}$ & $q_0$,$q_0$,$q_0$ & $q_1$,$q_1$,$q_1$ & $q_1$$q_0$1,$q_2$,$q_3$ & $q_0$,$q_1$,$q_2$ & $q_0$$q_1$1,$q_2$,$q_3$ & $q_1$,$q_1$,$q_1$ & $q_1$$q_0$1,$q_2$,$q_3$ & $q_0$,$q_1$,$q_2$ & $q_0$$q_1$1,$q_2$,$q_3$ & \dots \\ [2ex] % inserting body of the table
+$L_T$(.) & . & $p_1$,$p_2$,$p_4$,$\sigma$ & $p_3$,$p_5$ & $p_2$,$p_6$,$\sigma$ & $p_3$,$p_5$ & $p_1$,$p_2$,$p_4$,$\sigma$ & $p_3$,$p_5$ & $p_2$,$p_6$,$\sigma$ & $p_3$,$p_5$ & \dots \\ [2ex]
+$r_1$* & $q_0$ & $q_1$ & . & $q_0$ & . & $q_1$ & . & $q_0$ & . & \dots \\ [2ex]
+$r_2$* & $q_0$ & $q_1$ & $q_2$ & $q_1$ & $q_2$ & $q_1$ & $q_2$ & $q_1$ & $q_2$ & \dots \\ [2ex]
+$r_3$* & $q_0$ & $q_1$ & $q_3$ & $q_1$ & $q_3$ & $q_1$ & $q_3$ & $q_1$ & $q_3$ & \dots \\ [2ex] % [1ex] adds vertical space
+\hline %inserts single line
+\end{tabular}
+\label{table:nonlin} % is used to refer this table in the text
+\end{table}
+
+\vspace{10pt}
+Now similarly in Table 4.2 the first row shows the time when the transition occur, second row represents the run $r*_{group}$, third row corresponds to the satisfied propositions, and last three rows shows the separate run of three robots. As we observed in the optimal run that ($q_0$,$q_0$,$q_0$), ($q_1$,$q_1$,$q_1$) is the prefix and ($q_1$$q_0$1,$q_2$,$q_3$), ($q_0$,$q_1$,$q_2$), ($q_0$$q_1$1,$q_2$,$q_3$), ($q_1$,$q_1$,$q_1$) is the suffix cycle and that will be repeated an infinite number of times. The given time which satisfies the $\sigma$ is $\mathbb{T^\sigma}$ = \{2,4,6,8,10,\dots\} and the function defined in (3.2) is $C(\mathbb{T})$ = 2.
+
+Now as we done in Table 4.1 similarly the same procedure for this run shown in Table 4.2, the time sequence when $\sigma$ is repeatedly satisfied is $\mathbb{T^\sigma}$ = \{2,4,6,8,10,\dots\} and cost function is given as;
+
+\hspace{30pt}  $C(\mathbb{T})$ = $\lim_{k\to+\infty}$ ($\mathbb{T}$(k+1) - $\mathbb{T}$(k))
+
+\hspace{30pt}  = $\mathbb{T}$(k+1) - $\mathbb{T}$(k)
+
+\hspace{30pt}  = 4 - 2 = 2
+
+ As $C(\mathbb{T})$ = 2 is the obtained function where the $\sigma$ is repeatedly satisfied.
+
+ For some applications including new states and corresponding transitions to the structure of the robotic system may indicate to introducing advance stages or motion commands at some lower level. So the proper way in which the changes of these models are strictly application specific and we do not consider such details in our work. Assuming that these changes can be implemented in future.
+
+ \subsection{Synchronized Specification}
+ If there is a situation in which robots are moving at uncertain time and $\phi$ is not satisfied then we consider individual synchronization run for the robots that helps in guarantee the correctness of the model. In Algorithm.3 the protocols which is followed by the robots for synchronization in the field.
+
+ \begin{center}
+\begin{tabular}{ |p{13cm}| }
+ \hline
+ \textbf{Algorithm 3:} Synchronized-Move \\ \hline
+\textbf{ Input:} $r_i$ and sequence $s_i$ of $robot_i$ \\
+  \textbf{Result:} Simple synchronized moves for each robot that satisfies $\phi$.
+  \begin{itemize}
+    \item Initialized z at 0 and while True do
+  \end{itemize}
+    \begin{enumerate}
+    \item report all the members.
+    \item wait until all members received their information message.
+    \item after satisfying propositions at $r_i^{z}$ create a transition to $r_i^{z+1}$.
+    \item z = z+1.
+  \end{enumerate}
+ \\
+ \hline
+\end{tabular}
+\end{center}
+
+\section{Summarized Solution}
+This section summarizes the precise or logical solution in the given Algorithm.4 which analyze the problem and its complexity.
+
+ \begin{center}
+\begin{tabular}{ |p{13cm}| }
+ \hline
+ \textbf{Algorithm 4:} Pragmatic-Solution \\ \hline
+Our solution is summarized as we have LTL specification, transition system \{$T_1$, $T_2$, \dots, $T_m$\} and a set of runs \{$r_1$, $r_2$, \dots, $r_m$\} that fulfills mission specification and guarantee correctness. To elaborate this process further steps are given below:
+    \begin{enumerate}
+    \item Build a group transition system.
+    \item Find optimal run on group transition system \textbf{T}.
+    \item Insert new travelling state and transition systems to $r_{group}$.
+    \item Obtain run for each robot
+    \item If LTL formula is not satisfied then
+    \item Obtain simple synchronization
+  \end{enumerate}
+ \\
+ \hline
+\end{tabular}
+\end{center}
+
+This overview gives solution of our problem that is described in chapter 3 where uncertain activities can occur during the deployment. If the mission is satisfied or trace-closed then correctness is guaranteed and synchronized run is generated for concurrent moves.
+

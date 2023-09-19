@@ -1,0 +1,412 @@
+%1
+@book{intc,
+  title={Principles of model checking},
+  author={Baier, Christel and Katoen, Joost-Pieter and others},
+  volume={26202649},
+  year={2008},
+  publisher={MIT press Cambridge}
+}
+%2
+@book{intp,
+  title={Principles of the Spin model checker},
+  author={Ben-Ari, Mordechai},
+  year={2008},
+  publisher={Springer Science \& Business Media}
+}
+%3
+@inproceedings{inte,
+  title={Sampling-based motion planning with temporal goals},
+  author={Bhatia, Amit and Kavraki, Lydia E and Vardi, Moshe Y},
+  booktitle={Robotics and Automation (ICRA), 2010 IEEE International Conference on},
+  pages={2689--2696},
+  year={2010},
+  organization={IEEE}
+}
+%4
+@book{lity,
+  title={Systems and software verification: model-checking techniques and tools},
+  author={B{\'e}rard, B{\'e}atrice and Bidoit, Michel and Finkel, Alain and Laroussinie, Fran{\c{c}}ois and Petit, Antoine and Petrucci, Laure and Schnoebelen,
+  Philippe},
+  year={2013},
+  publisher={Springer Science \& Business Media}
+}
+%5
+@article{inth,
+  title={Formal approach to the deployment of distributed robotic teams},
+  author={Chen, Yushan and Ding, Xu Chu and Stefanescu, Alin and Belta, Calin},
+  journal={Robotics, IEEE Transactions on},
+  volume={28},
+  number={1},
+  pages={158--171},
+  year={2012},
+  publisher={IEEE}
+}
+%6
+@article{lita,
+  title={Efficient boustrophedon multi-robot coverage: an algorithmic approach},
+  author={Rekleitis, Ioannis and New, Ai Peng and Rankin, Edward Samuel and Choset, Howie},
+  journal={Annals of Mathematics and Artificial Intelligence},
+  volume={52},
+  number={2-4},
+  pages={109--142},
+  year={2008},
+  publisher={Springer}
+}
+%7
+@inproceedings{methd,
+  title={Nusmv 2: An opensource tool for symbolic model checking},
+  author={Cimatti, Alessandro and Clarke, Edmund and Giunchiglia, Enrico and Giunchiglia, Fausto and Pistore, Marco and Roveri, Marco and Sebastiani, Roberto
+  and Tacchella, Armando},
+  booktitle={Computer Aided Verification},
+  pages={359--364},
+  year={2002},
+  organization={Springer}
+}
+%8
+@incollection{litz,
+  title={Formal specification and development of a safety-critical train management system},
+  author={Chiappini, Angelo and Cimatti, Alessandro and Porzia, Carmen and Rotondo, G and Sebastiani, Roberto and Traverso, Paolo and Villafiorita, Adolfo},
+  booktitle={Computer Safety, Reliability and Security},
+  pages={410--419},
+  year={1999},
+  publisher={Springer}
+}
+%9
+@inproceedings{litn,
+  title={Motion planning for multiple mobile robots using dynamic networks},
+  author={Clark, Christopher M and Rock, Stephen M and Latombe, Jean-Claude},
+  booktitle={Robotics and Automation, 2003. Proceedings. ICRA'03. IEEE International Conference on},
+  volume={3},
+  pages={4222--4227},
+  year={2003},
+  organization={IEEE}
+}
+%10
+@article{intf,
+  title={The model checker SPIN},
+  author={Holzmann, Gerard J},
+  journal={IEEE Transactions on software engineering},
+  number={5},
+  pages={279--295},
+  year={1997},
+  publisher={IEEE}
+}
+%11
+@article{into,
+  title={Model Checking C Programs by Translating C to Promela},
+  author={Jiang, Ke},
+  year={2009}
+}
+%12
+@article{litk,
+  title={Multi-agent systems: a survey from the robot-soccer perspective},
+  author={Kim, Jong-Hwan and Vadakkepat, Prahlad},
+  journal={Intelligent Automation \& Soft Computing},
+  volume={6},
+  number={1},
+  pages={3--17},
+  year={2000},
+  publisher={Taylor \& Francis}
+}
+%13
+@article{intd,
+  title={Temporal-logic-based reactive mission and motion planning},
+  author={Kress-Gazit, Hadas and Fainekos, Georgios E and Pappas, George J},
+  journal={Robotics, IEEE Transactions on},
+  volume={25},
+  number={6},
+  pages={1370--1381},
+  year={2009},
+  publisher={IEEE}
+}
+%14
+@inproceedings{litx,
+  title={A distributed and optimal motion planning approach for multiple mobile robots},
+  author={Guo, Yi and Parker, Lynne E},
+  booktitle={Robotics and Automation, 2002. Proceedings. ICRA'02. IEEE International Conference on},
+  volume={3},
+  pages={2612--2619},
+  year={2002},
+  organization={IEEE}
+}
+%15
+@incollection{litc,
+  title={Model checking LTL over controllable linear systems is decidable},
+  author={Tabuada, Paulo and Pappas, George J},
+  booktitle={Hybrid systems: computation and control},
+  pages={498--513},
+  year={2003},
+  publisher={Springer}
+}
+%16
+@inproceedings{eee,
+  title={Receding horizon control for temporal logic specifications},
+  author={Wongpiromsarn, Tichakorn and Topcu, Ufuk and Murray, Richard M},
+  booktitle={Proceedings of the 13th ACM international conference on Hybrid systems: computation and control},
+  pages={101--110},
+  year={2010},
+  organization={ACM}
+}
+%17
+@inproceedings{ccc,
+  title={Verification of Safety-Critical Systems: A Case Study Report on Using Modern Model Checking Tools},
+  author={J{\"a}{\"a}skel{\"a}inen, Antti and Katara, Mika and Katz, Shmuel and Virtanen, Heikki},
+  booktitle={6th International Workshop on Systems Software Verification},
+  pages={44},
+  year={2012}
+}
+
+%19
+
+@inproceedings{bbb,
+  title={An automata-theoretic approach to automatic program verification},
+  author={Vardi, Moshe Y and Wolper, Pierre},
+  booktitle={1st Symposium in Logic in Computer Science (LICS)},
+  year={1986},
+  organization={IEEE Computer Society}
+}
+%20
+@incollection{fff,
+  title={TAPAs: A tool for the analysis of process algebras},
+  author={Calzolai, Francesco and De Nicola, Rocco and Loreti, Michele and Tiezzi, Francesco},
+  booktitle={Transactions on Petri Nets and Other Models of Concurrency I},
+  pages={54--70},
+  year={2008},
+  publisher={Springer}
+}
+
+%21
+@inproceedings{rob,
+  title={Robotics--Chances and challenges of a key science},
+  author={Schweitzer, Gerhard},
+  booktitle={17th International Congress of Mechanical Engineering (COBEM 2003), S{\~a}o Paulo, Brasil},
+  year={2003}
+}
+
+%22
+@article{his,
+  title={A Brief History of Robotics},
+  author={Soysal, Onur},
+  year={2005},
+  publisher={Citeseer}
+}
+
+%23
+@article{tur,
+  title={The Turing test},
+  author={Rapaport, William J},
+  journal={Ency. Lang. \& Ling},
+  pages={151--159},
+  year={2005}
+}
+
+%24
+@article{asimov,
+  title={Asimov's Laws of Robotics Applied to Software},
+  author={Feitelson, Dror G},
+  journal={Software, IEEE},
+  volume={24},
+  number={4},
+  pages={112--112},
+  year={2007},
+  publisher={IEEE}
+}
+
+%25
+@inproceedings{asi,
+  title={Footstep planning for the honda asimo humanoid},
+  author={Chestnutt, Joel and Lau, Manfred and Cheung, German and Kuffner, James and Hodgins, Jessica and Kanade, Takeo},
+  booktitle={Robotics and Automation, 2005. ICRA 2005. Proceedings of the 2005 IEEE International Conference on},
+  pages={629--634},
+  year={2005},
+  organization={IEEE}
+}
+
+%26
+@inproceedings{nasa,
+  title={The mars rover spirit FLASH anomaly},
+  author={Reeves, Glenn and Neilson, Tracy},
+  booktitle={Aerospace Conference, 2005 IEEE},
+  pages={4186--4199},
+  year={2005},
+  organization={IEEE}
+}
+
+%27
+@article{move,
+  title={A survey of collective movement of mobile robots},
+  author={Navarro, I{\~n}aki and Mat{\'\i}a, Fernando},
+  journal={International Journal of Advanced Robotic Systems},
+  volume={10},
+  number={73},
+  year={2013}
+}
+
+%28
+@article{robo,
+  title={Robotics of human movements},
+  author={van der Smagt, Patrick and Grebenstein, Markus and Urbanek, Holger and Fligge, Nadine and Strohmayr, Michael and Stillfried, Georg and Parrish, Jonathon and Gustus, Agneta},
+  journal={Journal of Physiology-Paris},
+  volume={103},
+  number={3},
+  pages={119--132},
+  year={2009},
+  publisher={Elsevier}
+}
+
+%29
+@article{pres,
+  title={Robotic movement elicits automatic imitation},
+  author={Press, Clare and Bird, Geoffrey and Flach, R{\"u}diger and Heyes, Cecilia},
+  journal={Cognitive Brain Research},
+  volume={25},
+  number={3},
+  pages={632--640},
+  year={2005},
+  publisher={Elsevier}
+}
+
+%30
+@inproceedings{ai,
+  title={Planning human centered robot activities},
+  author={Montreuil, Vincent and Clodic, Aur{\'e}lie and Ransan, Maxime and Alami, Rachid},
+  booktitle={Systems, Man and Cybernetics, 2007. ISIC. IEEE International Conference on},
+  pages={2618--2623},
+  year={2007},
+  organization={IEEE}
+}
+
+%31
+@article{swa,
+  title={Improvement of robot path planning using particle swarm optimization in dynamic environments with mobile obstacles and target},
+  author={Yarmohamadi, Maryam and Javadi, H Haj Seyyed and Erfani, Hossein},
+  journal={Advanced Studies in Biology},
+  volume={3},
+  number={1},
+  pages={43--53},
+  year={2011}
+}
+
+%32
+@inproceedings{romba,
+  title={Development of a control platform for the mobile robot Roomba using ROS and a Kinect sensor},
+  author={Ruiz, Esmeralda and Acu{\~n}a, Ra{\'u}l and Certad, Novel and Terrones, Angel and Cabrera, Maria E},
+  booktitle={Robotics Symposium and Competition (LARS/LARC), 2013 Latin American},
+  pages={55--60},
+  year={2013},
+  organization={IEEE}
+}
+
+%33
+@inproceedings{opt,
+  title={Limited communication, multi-robot team based coverage},
+  author={Rekleitis, Ioannis and Lee-Shue, Vincent and New, Ai Peng and Choset, Howie},
+  booktitle={Robotics and Automation, 2004. Proceedings. ICRA'04. 2004 IEEE International Conference on},
+  volume={4},
+  pages={3462--3468},
+  year={2004},
+  organization={IEEE}
+}
+
+%34
+@inproceedings{opti,
+  title={Multiagent teamwork: Analyzing the optimality and complexity of key theories and models},
+  author={Pynadath, David V and Tambe, Milind},
+  booktitle={Proceedings of the first international joint conference on Autonomous agents and multiagent systems: part 2},
+  pages={873--880},
+  year={2002},
+  organization={ACM}
+}
+
+%35
+@article{for,
+  title={Formal methods: Practice and experience},
+  author={Woodcock, Jim and Larsen, Peter Gorm and Bicarregui, Juan and Fitzgerald, John},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={41},
+  number={4},
+  pages={19},
+  year={2009},
+  publisher={ACM}
+}
+
+%36
+@incollection{ltl,
+  title={An automata-theoretic approach to linear temporal logic},
+  author={Vardi, Moshe Y},
+  booktitle={Logics for concurrency},
+  pages={238--266},
+  year={1996},
+  publisher={Springer}
+}
+
+%37
+@inproceedings{rrt,
+  title={RRT-connect: An efficient approach to single-query path planning},
+  author={Kuffner, James J and LaValle, Steven M},
+  booktitle={Robotics and Automation, 2000. Proceedings. ICRA'00. IEEE International Conference on},
+  volume={2},
+  pages={995--1001},
+  year={2000},
+  organization={IEEE}
+}
+
+%38
+@incollection{bu,
+  title={LTL to B{\"u}chi automata translation: Fast and more deterministic},
+  author={Babiak, Tom{\'a}{\v{s}} and K{\v{r}}et{\'\i}nsk{\`y}, Mojm{\'\i}r and {\v{R}}eh{\'a}k, Vojt{\v{e}}ch and Strej{\v{c}}ek, Jan},
+  booktitle={Tools and Algorithms for the Construction and Analysis of Systems},
+  pages={95--109},
+  year={2012},
+  publisher={Springer}
+}
+
+%39
+@article{buch,
+  title={Efficient translation of LTL formulae into B{\"u}chi automata},
+  author={Giannakopoulou, Dimitra and Lerda, Flavio},
+  journal={Research Institute for Advanced Computer Science (RIACS), Technical Report},
+  volume={1},
+  year={2001}
+}
+
+%40
+@incollection{tool,
+  title={Comparison of model checking tools for information systems},
+  author={Frappier, Marc and Fraikin, Beno{\^\i}t and Chossart, Romain and Chane-Yack-Fa, Rapha{\"e}l and Ouenzar, Mohammed},
+  booktitle={Formal Methods and Software Engineering},
+  pages={581--596},
+  year={2010},
+  publisher={Springer}
+}
+
+%41
+@inproceedings{ltlbuchi,
+  title={Fast LTL to B{\"u}chi automata translation},
+  author={Gastin, Paul and Oddoux, Denis},
+  booktitle={Computer Aided Verification},
+  pages={53--65},
+  year={2001},
+  organization={Springer}
+}
+
+%42
+@inproceedings{roombapic,
+  title={Service robots in the domestic environment: a study of the roomba vacuum in the home},
+  author={Forlizzi, Jodi and DiSalvo, Carl},
+  booktitle={Proceedings of the 1st ACM SIGCHI/SIGART conference on Human-robot interaction},
+  pages={258--265},
+  year={2006},
+  organization={ACM}
+}
+
+%43
+@inproceedings{asimopic,
+  title={The intelligent ASIMO: System overview and integration},
+  author={Sakagami, Yoshiaki and Watanabe, Ryujin and Aoyama, Chiaki and Matsunaga, Shinichi and Higaki, Nobuo and Fujimura, Kikuo},
+  booktitle={Intelligent Robots and Systems, 2002. IEEE/RSJ International Conference on},
+  volume={3},
+  pages={2478--2483},
+  year={2002},
+  organization={IEEE}
+}

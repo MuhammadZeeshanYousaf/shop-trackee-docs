@@ -1,0 +1,59 @@
+% Chapter 1
+
+\chapter{Introduction} % Main chapter title
+
+\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1}
+
+\lhead{Chapter 1. \emph{Introduction}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+ How to insert reference is illustrated here  \citep{scrib} remaining text contents \citep{
+\subsection{Abc }
+
+Below are sample\index{sample} how to enter a figure in the document
+\begin{figure}[h]
+  \centering
+\includegraphics[width=7cm, height=6cm]{roomba} \\
+\caption{Roomba - a mobile robot}
+\end{figure}
+
+\hspace{10pt}
+
+\begin{figure}[h]
+  \centering
+\includegraphics[width=9cm, height=6cm]{asimo} \\
+\caption{History of Asimo}
+\end{figure}
+
+\hspace{10pt}
+
+
+
+How to insert a table in latex:
+\hspace{10pt}
+
+\begin{table}[h]
+\centering
+\caption{Summarized view of LTL and CTL}
+\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
+  \hline
+  \textbf{Aspect} & Linear time & Branching time \\ [2ex]
+  \hline
+  \textbf{Behaviour in states}  & Path based & State based \\  [2ex]
+  \hline
+  \textbf{Fairness} & No special techniques needed & Special techniques needed\\ [2ex]
+  \hline
+  \textbf{Implementation relation} & Trace inclusion  & simulation and bisimulation\\ [2ex]
+  \hline
+\end{tabular}
+\end{table}
+
+\section{Literature Review}
+
+
+
+
+%----------------------------------------------------------------------------------------
+

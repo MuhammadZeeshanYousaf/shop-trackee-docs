@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  2 OCT 2023 00:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  2 OCT 2023 01:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -562,7 +562,7 @@ LaTeX Info: Redefining \nameref on input line 15.
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 42.
 
-<Pictures//Gculogo.png, id=277, 207.174pt x 242.70676pt>
+<Pictures//Gculogo.png, id=285, 207.174pt x 242.70676pt>
 File: Pictures//Gculogo.png Graphic file (type png)
 <use Pictures//Gculogo.png>
 Package pdftex.def Info: Pictures//Gculogo.png  used on input line 44.
@@ -690,7 +690,7 @@ Chapter 3.
 ------------------------------------------------------------------------------
  3 Project Design
 ------------------------------------------------------------------------------
-<Pictures//iterative_process_model.jpg, id=466, 1091.07625pt x 612.2875pt>
+<Pictures//iterative_process_model.jpg, id=478, 1091.07625pt x 612.2875pt>
 File: Pictures//iterative_process_model.jpg Graphic file (type jpg)
 <use Pictures//iterative_process_model.jpg>
 Package pdftex.def Info: Pictures//iterative_process_model.jpg  used on input l
@@ -704,22 +704,38 @@ Overfull \hbox (9.31827pt too wide) in paragraph at lines 16--17
 [10
 
  <./Pictures//iterative_process_model.jpg>] [11] [12]
-<Pictures//TrackMyShop_CD.jpg, id=482, 4106.34125pt x 3530.18875pt>
+<Pictures//Entity-Relationship_Diagram.jpg, id=494, 3809.23125pt x 2034.60126pt
+>
+File: Pictures//Entity-Relationship_Diagram.jpg Graphic file (type jpg)
+<use Pictures//Entity-Relationship_Diagram.jpg>
+Package pdftex.def Info: Pictures//Entity-Relationship_Diagram.jpg  used on inp
+ut line 91.
+(pdftex.def)             Requested size: 483.69684pt x 258.32939pt.
+
+Overfull \hbox (66.22377pt too wide) in paragraph at lines 91--92
+ [] 
+ []
+
+<Pictures//TrackMyShop_CD.jpg, id=495, 4033.0675pt x 3526.17375pt>
 File: Pictures//TrackMyShop_CD.jpg Graphic file (type jpg)
 <use Pictures//TrackMyShop_CD.jpg>
-Package pdftex.def Info: Pictures//TrackMyShop_CD.jpg  used on input line 92.
-(pdftex.def)             Requested size: 483.69684pt x 415.79376pt.
+Package pdftex.def Info: Pictures//TrackMyShop_CD.jpg  used on input line 99.
+(pdftex.def)             Requested size: 483.69684pt x 422.85358pt.
 
-Overfull \hbox (66.22377pt too wide) in paragraph at lines 92--93
- [][] 
+Overfull \hbox (66.22377pt too wide) in paragraph at lines 99--100
+ [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
-[13 <./Pictures//TrackMyShop_CD.jpg>]) (./Chapters/Chapter4.tex [14]
+[13 <./Pictures//Entity-Relationship_Diagram.jpg>]) (./Chapters/Chapter4.tex
+[14 <./Pictures//TrackMyShop_CD.jpg>]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Implementation and Evaluation
@@ -766,7 +782,7 @@ Chapter 5.
 [22
 
 ]
-<Pictures//k.png, id=556, 1023.825pt x 510.40688pt>
+<Pictures//k.png, id=569, 1023.825pt x 510.40688pt>
 File: Pictures//k.png Graphic file (type png)
 <use Pictures//k.png>
 Package pdftex.def Info: Pictures//k.png  used on input line 14.
@@ -776,7 +792,7 @@ Package pdftex.def Info: Pictures//k.png  used on input line 14.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [23 <./Pictures/k.PNG>]
-<Pictures//l.png, id=563, 1023.825pt x 510.40688pt>
+<Pictures//l.png, id=576, 1023.825pt x 510.40688pt>
 File: Pictures//l.png Graphic file (type png)
 <use Pictures//l.png>
 Package pdftex.def Info: Pictures//l.png  used on input line 22.
@@ -821,20 +837,20 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ProjectMain_StudentName_123BS14.out' has not
  changed.
-(rerunfilecheck)             Checksum: 920CCB8625B93455D35F523699824779;12048.
+(rerunfilecheck)             Checksum: 9044A7880FD4670FF73E647580407169;12527.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 210 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13928 strings out of 480171
- 221002 string characters out of 5894489
- 505170 words of memory out of 5000000
- 31489 multiletter control sequences out of 15000+600000
+ 13946 strings out of 480171
+ 221618 string characters out of 5894489
+ 505171 words of memory out of 5000000
+ 31504 multiletter control sequences out of 15000+600000
  484482 words of font info for 83 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 75i,12n,77p,1048b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,12n,77p,1048b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{page.i} has been referenced but doe
 s not exist, replaced by a fixed one
 
@@ -852,11 +868,11 @@ fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ProjectMain_StudentName_123BS14.pdf (42 pages, 1656855 bytes)
+Output written on ProjectMain_StudentName_123BS14.pdf (42 pages, 2097578 bytes)
 .
 PDF statistics:
- 690 PDF objects out of 1000 (max. 8388607)
- 602 compressed objects within 7 object streams
- 146 named destinations out of 1000 (max. 500000)
- 570 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 703 PDF objects out of 1000 (max. 8388607)
+ 614 compressed objects within 7 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 591 words of extra memory for PDF output out of 10000 (max. 10000000)
 

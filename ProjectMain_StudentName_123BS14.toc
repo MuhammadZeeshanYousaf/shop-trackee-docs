@@ -52,24 +52,26 @@
 \contentsline {subsection}{\numberline {3.1.6}Evaluation}{12}{subsection.51}%
 \contentsline {subsection}{\numberline {3.1.7}Summary}{12}{subsection.52}%
 \contentsline {section}{\numberline {3.2}Architecture Overview}{13}{section.53}%
-\contentsline {subsection}{\numberline {3.2.1}Class Diagram}{13}{subsection.54}%
-\contentsline {section}{\numberline {3.3}Design Description}{14}{section.56}%
-\contentsline {chapter}{\numberline {4}Implementation and Evaluation}{15}{chapter.58}%
-\contentsline {section}{\numberline {4.1}Development Stages }{15}{section.59}%
-\contentsline {subsection}{\numberline {4.1.1}Stage abc..}{15}{subsection.60}%
-\contentsline {subsection}{\numberline {4.1.2}Stage def..}{16}{subsection.61}%
-\contentsline {section}{\numberline {4.2}System Integration }{16}{section.62}%
-\contentsline {section}{\numberline {4.3}User Interface}{16}{section.63}%
-\contentsline {section}{\numberline {4.4}Evaluation}{16}{section.64}%
-\contentsline {section}{\numberline {4.5}Unit Testing}{16}{section.65}%
-\contentsline {section}{\numberline {4.6}Functional Testing}{16}{section.66}%
-\contentsline {subsection}{\numberline {4.6.1}Testing Requirements}{16}{subsection.67}%
-\contentsline {section}{\numberline {4.7}Requirements}{16}{section.68}%
-\contentsline {subsection}{\numberline {4.7.1}Accurate Specified Run}{18}{subsection.83}%
-\contentsline {subsection}{\numberline {4.7.2}Synchronized Specification}{20}{subsection.90}%
-\contentsline {chapter}{\numberline {5}Conclusion \& Future Work}{22}{chapter.95}%
-\contentsline {section}{\numberline {5.1}Conclusion}{25}{section.98}%
+\contentsline {subsection}{\numberline {3.2.1}Entity Relationship Diagram (ERD) }{13}{subsection.55}%
+\contentsline {subsection}{\numberline {3.2.3}Mathematical}{13}{subsection.58}%
+\contentsline {subsection}{\numberline {3.2.2}Class Diagram (UML) }{14}{subsection.57}%
+\contentsline {section}{\numberline {3.3}Design Description}{14}{section.59}%
+\contentsline {chapter}{\numberline {4}Implementation and Evaluation}{15}{chapter.61}%
+\contentsline {section}{\numberline {4.1}Development Stages }{15}{section.62}%
+\contentsline {subsection}{\numberline {4.1.1}Stage abc..}{15}{subsection.63}%
+\contentsline {subsection}{\numberline {4.1.2}Stage def..}{16}{subsection.64}%
+\contentsline {section}{\numberline {4.2}System Integration }{16}{section.65}%
+\contentsline {section}{\numberline {4.3}User Interface}{16}{section.66}%
+\contentsline {section}{\numberline {4.4}Evaluation}{16}{section.67}%
+\contentsline {section}{\numberline {4.5}Unit Testing}{16}{section.68}%
+\contentsline {section}{\numberline {4.6}Functional Testing}{16}{section.69}%
+\contentsline {subsection}{\numberline {4.6.1}Testing Requirements}{16}{subsection.70}%
+\contentsline {section}{\numberline {4.7}Requirements}{16}{section.71}%
+\contentsline {subsection}{\numberline {4.7.1}Accurate Specified Run}{18}{subsection.86}%
+\contentsline {subsection}{\numberline {4.7.2}Synchronized Specification}{20}{subsection.93}%
+\contentsline {chapter}{\numberline {5}Conclusion \& Future Work}{22}{chapter.98}%
+\contentsline {section}{\numberline {5.1}Conclusion}{25}{section.101}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{26}{appendix.99}%
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{26}{appendix.102}%
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{27}{dummy.100}%
+\contentsline {chapter}{Bibliography}{27}{dummy.103}%

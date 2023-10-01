@@ -9,8 +9,8 @@
 \contentsline {chapter}{Abstract}{v}{dummy.5}%
 \vspace {1em}
 \contentsline {chapter}{Contents}{vi}{dummy.6}%
-\contentsline {chapter}{List of Tables}{viii}{dummy.8}%
-\contentsline {chapter}{List of Figures}{ix}{dummy.10}%
+\contentsline {chapter}{List of Tables}{ix}{dummy.8}%
+\contentsline {chapter}{List of Figures}{x}{dummy.10}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}%
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.13}%
 \contentsline {section}{\numberline {1.2}Project Overview}{2}{section.14}%
@@ -44,24 +44,31 @@
 \contentsline {subsubsection}{\numberline {2.2.0.9}Reliability}{9}{subsubsection.42}%
 \contentsline {chapter}{\numberline {3}Project Design}{10}{chapter.43}%
 \contentsline {section}{\numberline {3.1}Methodology}{10}{section.44}%
-\contentsline {section}{\numberline {3.2}Architecture Overview}{10}{section.45}%
-\contentsline {section}{\numberline {3.3}Design Description}{10}{section.46}%
-\contentsline {chapter}{\numberline {4}Implementation and Evaluation}{11}{chapter.48}%
-\contentsline {section}{\numberline {4.1}Development Stages }{11}{section.49}%
-\contentsline {subsection}{\numberline {4.1.1}Stage abc..}{11}{subsection.50}%
-\contentsline {subsection}{\numberline {4.1.2}Stage def..}{12}{subsection.51}%
-\contentsline {section}{\numberline {4.2}System Integration }{12}{section.52}%
-\contentsline {section}{\numberline {4.3}User Interface}{12}{section.53}%
-\contentsline {section}{\numberline {4.4}Evaluation}{12}{section.54}%
-\contentsline {section}{\numberline {4.5}Unit Testing}{12}{section.55}%
-\contentsline {section}{\numberline {4.6}Functional Testing}{12}{section.56}%
-\contentsline {subsection}{\numberline {4.6.1}Testing Requirements}{12}{subsection.57}%
-\contentsline {section}{\numberline {4.7}Requirements}{12}{section.58}%
-\contentsline {subsection}{\numberline {4.7.1}Accurate Specified Run}{14}{subsection.73}%
-\contentsline {subsection}{\numberline {4.7.2}Synchronized Specification}{16}{subsection.80}%
-\contentsline {chapter}{\numberline {5}Conclusion \& Future Work}{18}{chapter.85}%
-\contentsline {section}{\numberline {5.1}Conclusion}{21}{section.88}%
+\contentsline {subsection}{\numberline {3.1.1}Initial Planning}{11}{subsection.46}%
+\contentsline {subsection}{\numberline {3.1.2}Planning}{11}{subsection.47}%
+\contentsline {subsection}{\numberline {3.1.3}Requirements Analysis and Design}{11}{subsection.48}%
+\contentsline {subsection}{\numberline {3.1.4}Implementation and Development}{12}{subsection.49}%
+\contentsline {subsection}{\numberline {3.1.5}Testing}{12}{subsection.50}%
+\contentsline {subsection}{\numberline {3.1.6}Evaluation}{12}{subsection.51}%
+\contentsline {subsection}{\numberline {3.1.7}Summary}{12}{subsection.52}%
+\contentsline {section}{\numberline {3.2}Architecture Overview}{13}{section.53}%
+\contentsline {section}{\numberline {3.3}Design Description}{13}{section.54}%
+\contentsline {chapter}{\numberline {4}Implementation and Evaluation}{14}{chapter.56}%
+\contentsline {section}{\numberline {4.1}Development Stages }{14}{section.57}%
+\contentsline {subsection}{\numberline {4.1.1}Stage abc..}{14}{subsection.58}%
+\contentsline {subsection}{\numberline {4.1.2}Stage def..}{15}{subsection.59}%
+\contentsline {section}{\numberline {4.2}System Integration }{15}{section.60}%
+\contentsline {section}{\numberline {4.3}User Interface}{15}{section.61}%
+\contentsline {section}{\numberline {4.4}Evaluation}{15}{section.62}%
+\contentsline {section}{\numberline {4.5}Unit Testing}{15}{section.63}%
+\contentsline {section}{\numberline {4.6}Functional Testing}{15}{section.64}%
+\contentsline {subsection}{\numberline {4.6.1}Testing Requirements}{15}{subsection.65}%
+\contentsline {section}{\numberline {4.7}Requirements}{15}{section.66}%
+\contentsline {subsection}{\numberline {4.7.1}Accurate Specified Run}{17}{subsection.81}%
+\contentsline {subsection}{\numberline {4.7.2}Synchronized Specification}{19}{subsection.88}%
+\contentsline {chapter}{\numberline {5}Conclusion \& Future Work}{21}{chapter.93}%
+\contentsline {section}{\numberline {5.1}Conclusion}{24}{section.96}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{22}{appendix.89}%
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{25}{appendix.97}%
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{23}{dummy.90}%
+\contentsline {chapter}{Bibliography}{26}{dummy.98}%

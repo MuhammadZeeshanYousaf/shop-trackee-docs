@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  2 OCT 2023 01:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  7 OCT 2023 23:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -562,7 +562,7 @@ LaTeX Info: Redefining \nameref on input line 15.
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 42.
 
-<Pictures//Gculogo.png, id=285, 207.174pt x 242.70676pt>
+<Pictures//Gculogo.png, id=293, 207.174pt x 242.70676pt>
 File: Pictures//Gculogo.png Graphic file (type png)
 <use Pictures//Gculogo.png>
 Package pdftex.def Info: Pictures//Gculogo.png  used on input line 44.
@@ -605,7 +605,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--156
  []
 
 
-Overfull \hbox (47.54463pt too wide) in paragraph at lines 156--156
+Overfull \hbox (75.99739pt too wide) in paragraph at lines 156--156
 [][] 
  []
 
@@ -690,7 +690,7 @@ Chapter 3.
 ------------------------------------------------------------------------------
  3 Project Design
 ------------------------------------------------------------------------------
-<Pictures//iterative_process_model.jpg, id=478, 1091.07625pt x 612.2875pt>
+<Pictures//iterative_process_model.jpg, id=488, 1091.07625pt x 612.2875pt>
 File: Pictures//iterative_process_model.jpg Graphic file (type jpg)
 <use Pictures//iterative_process_model.jpg>
 Package pdftex.def Info: Pictures//iterative_process_model.jpg  used on input l
@@ -704,7 +704,7 @@ Overfull \hbox (9.31827pt too wide) in paragraph at lines 16--17
 [10
 
  <./Pictures//iterative_process_model.jpg>] [11] [12]
-<Pictures//Entity-Relationship_Diagram.jpg, id=494, 3809.23125pt x 2034.60126pt
+<Pictures//Entity-Relationship_Diagram.jpg, id=504, 3809.23125pt x 2034.60126pt
 >
 File: Pictures//Entity-Relationship_Diagram.jpg Graphic file (type jpg)
 <use Pictures//Entity-Relationship_Diagram.jpg>
@@ -716,7 +716,7 @@ Overfull \hbox (66.22377pt too wide) in paragraph at lines 91--92
  [] 
  []
 
-<Pictures//TrackMyShop_CD.jpg, id=495, 4033.0675pt x 3526.17375pt>
+<Pictures//TrackMyShop_CD.jpg, id=505, 4033.0675pt x 3526.17375pt>
 File: Pictures//TrackMyShop_CD.jpg Graphic file (type jpg)
 <use Pictures//TrackMyShop_CD.jpg>
 Package pdftex.def Info: Pictures//TrackMyShop_CD.jpg  used on input line 99.
@@ -740,49 +740,46 @@ Chapter 4.
 ------------------------------------------------------------------------------
  4 Implementation and Evaluation
 ------------------------------------------------------------------------------
-
-Package natbib Warning: Citation `inth' on page 15 undefined on input line 14.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15
+[15
 
 ]
-[16]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-2.
+
+Package natbib Warning: Citation `inth' on page 16 undefined on input line 48.
+
+[16] [17]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 6
+6.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--51
+Underfull \hbox (badness 10000) in paragraph at lines 62--85
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17] [18]
-Overfull \hbox (28.60486pt too wide) in paragraph at lines 114--127
+[18] [19]
+Overfull \hbox (28.60486pt too wide) in paragraph at lines 148--161
  [][] 
  []
 
-[19]
+[20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20])
-(./Chapters/Chapter5.tex [21]
+ [21])
+(./Chapters/Chapter5.tex [22]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Conclusion \& Future Work
 ------------------------------------------------------------------------------
-[22
+[23
 
 ]
-<Pictures//k.png, id=569, 1023.825pt x 510.40688pt>
+<Pictures//k.png, id=600, 1023.825pt x 510.40688pt>
 File: Pictures//k.png Graphic file (type png)
 <use Pictures//k.png>
 Package pdftex.def Info: Pictures//k.png  used on input line 14.
@@ -791,8 +788,8 @@ Package pdftex.def Info: Pictures//k.png  used on input line 14.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23 <./Pictures/k.PNG>]
-<Pictures//l.png, id=576, 1023.825pt x 510.40688pt>
+[24 <./Pictures/k.PNG>]
+<Pictures//l.png, id=606, 1023.825pt x 510.40688pt>
 File: Pictures//l.png Graphic file (type png)
 <use Pictures//l.png>
 Package pdftex.def Info: Pictures//l.png  used on input line 22.
@@ -801,7 +798,7 @@ Package pdftex.def Info: Pictures//l.png  used on input line 22.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24 <./Pictures/l.PNG>]) (./Appendices/AppendixA.tex [25
+[25 <./Pictures/l.PNG>]) (./Appendices/AppendixA.tex [26
 
 
 
@@ -811,17 +808,17 @@ Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
 ------------------------------------------------------------------------------
-) [26
+) [27
 
 ]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
 (./ProjectMain_StudentName_123BS14.bbl) (./ProjectMain_StudentName_123BS14.ind
-[27
+[28
 
 
-] [28
+] [29
 
 
 ])
@@ -837,17 +834,17 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ProjectMain_StudentName_123BS14.out' has not
  changed.
-(rerunfilecheck)             Checksum: 9044A7880FD4670FF73E647580407169;12527.
+(rerunfilecheck)             Checksum: E8F09ACCD72F1C86F85D36E4A1328AB9;12901.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 210 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13946 strings out of 480171
- 221618 string characters out of 5894489
- 505171 words of memory out of 5000000
- 31504 multiletter control sequences out of 15000+600000
+ 13967 strings out of 480171
+ 221808 string characters out of 5894489
+ 505176 words of memory out of 5000000
+ 31506 multiletter control sequences out of 15000+600000
  484482 words of font info for 83 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  75i,12n,77p,1048b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -868,11 +865,11 @@ fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ProjectMain_StudentName_123BS14.pdf (42 pages, 2097578 bytes)
+Output written on ProjectMain_StudentName_123BS14.pdf (43 pages, 2100130 bytes)
 .
 PDF statistics:
- 703 PDF objects out of 1000 (max. 8388607)
- 614 compressed objects within 7 object streams
- 149 named destinations out of 1000 (max. 500000)
- 591 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 737 PDF objects out of 1000 (max. 8388607)
+ 647 compressed objects within 7 object streams
+ 168 named destinations out of 1000 (max. 500000)
+ 607 words of extra memory for PDF output out of 10000 (max. 10000000)
 

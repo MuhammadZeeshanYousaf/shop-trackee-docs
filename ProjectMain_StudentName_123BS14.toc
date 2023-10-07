@@ -58,20 +58,22 @@
 \contentsline {section}{\numberline {3.3}Design Description}{14}{section.59}%
 \contentsline {chapter}{\numberline {4}Implementation and Evaluation}{15}{chapter.61}%
 \contentsline {section}{\numberline {4.1}Development Stages }{15}{section.62}%
-\contentsline {subsection}{\numberline {4.1.1}Stage abc..}{15}{subsection.63}%
-\contentsline {subsection}{\numberline {4.1.2}Stage def..}{16}{subsection.64}%
-\contentsline {section}{\numberline {4.2}System Integration }{16}{section.65}%
-\contentsline {section}{\numberline {4.3}User Interface}{16}{section.66}%
-\contentsline {section}{\numberline {4.4}Evaluation}{16}{section.67}%
-\contentsline {section}{\numberline {4.5}Unit Testing}{16}{section.68}%
-\contentsline {section}{\numberline {4.6}Functional Testing}{16}{section.69}%
-\contentsline {subsection}{\numberline {4.6.1}Testing Requirements}{16}{subsection.70}%
-\contentsline {section}{\numberline {4.7}Requirements}{16}{section.71}%
-\contentsline {subsection}{\numberline {4.7.1}Accurate Specified Run}{18}{subsection.86}%
-\contentsline {subsection}{\numberline {4.7.2}Synchronized Specification}{20}{subsection.93}%
-\contentsline {chapter}{\numberline {5}Conclusion \& Future Work}{22}{chapter.98}%
-\contentsline {section}{\numberline {5.1}Conclusion}{25}{section.101}%
+\contentsline {subsection}{\numberline {4.1.1}Strategy Stage}{15}{subsection.63}%
+\contentsline {section}{\numberline {4.2}Implementation}{15}{section.64}%
+\contentsline {subsection}{\numberline {4.2.1}Tools and Technologies}{16}{subsection.65}%
+\contentsline {subsection}{\numberline {4.2.2}Stage abc..}{17}{subsection.82}%
+\contentsline {section}{\numberline {4.3}System Integration }{17}{section.83}%
+\contentsline {section}{\numberline {4.4}User Interface}{17}{section.84}%
+\contentsline {section}{\numberline {4.5}Evaluation}{17}{section.85}%
+\contentsline {section}{\numberline {4.6}Unit Testing}{17}{section.86}%
+\contentsline {section}{\numberline {4.7}Functional Testing}{17}{section.87}%
+\contentsline {subsection}{\numberline {4.7.1}Testing Requirements}{17}{subsection.88}%
+\contentsline {section}{\numberline {4.8}Requirements}{17}{section.89}%
+\contentsline {subsection}{\numberline {4.8.1}Accurate Specified Run}{19}{subsection.104}%
+\contentsline {subsection}{\numberline {4.8.2}Synchronized Specification}{21}{subsection.111}%
+\contentsline {chapter}{\numberline {5}Conclusion \& Future Work}{23}{chapter.116}%
+\contentsline {section}{\numberline {5.1}Conclusion}{26}{section.119}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{26}{appendix.102}%
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{27}{appendix.120}%
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{27}{dummy.103}%
+\contentsline {chapter}{Bibliography}{28}{dummy.121}%

@@ -81,7 +81,7 @@
 \contentsline {subsection}{\numberline {4.4.16}Customer Favorites}{25}{subsection.115}%
 \contentsline {subsection}{\numberline {4.4.17}Dark Mode}{26}{subsection.117}%
 \contentsline {section}{\numberline {4.5}Hardware Interface}{26}{section.118}%
-\contentsline {subsection}{\numberline {4.5.1}Requirements}{26}{subsection.119}%
+\contentsline {subsection}{\numberline {4.5.1}Hardware Requirements}{26}{subsection.119}%
 \contentsline {section}{\numberline {4.6}Evaluation}{27}{section.120}%
 \contentsline {section}{\numberline {4.7}Unit Testing}{27}{section.121}%
 \contentsline {section}{\numberline {4.8}Functional Testing}{27}{section.122}%

@@ -144,6 +144,3 @@
 \contentsline {subsection}{\numberline {5.2.14}Offline Access and Progressive Web App (PWA):}{46}{subsection.233}%
 \contentsline {subsection}{\numberline {5.2.15}Import data from Business Websites:}{47}{subsection.234}%
 \contentsline {subsection}{\numberline {5.2.16}Integration with Local Services:}{47}{subsection.235}%
-\vspace {2em}
-\vspace {2em}
-\contentsline {chapter}{Bibliography}{48}{dummy.236}%

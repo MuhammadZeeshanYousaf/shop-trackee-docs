@@ -9,8 +9,8 @@
 \contentsline {chapter}{Abstract}{v}{dummy.5}%
 \vspace {1em}
 \contentsline {chapter}{Contents}{vi}{dummy.6}%
-\contentsline {chapter}{List of Tables}{ix}{dummy.8}%
-\contentsline {chapter}{List of Figures}{x}{dummy.10}%
+\contentsline {chapter}{List of Tables}{x}{dummy.8}%
+\contentsline {chapter}{List of Figures}{xi}{dummy.10}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}%
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.13}%
 \contentsline {section}{\numberline {1.2}Project Overview}{2}{section.14}%
@@ -90,8 +90,25 @@
 \contentsline {subsection}{\numberline {4.9.1}Accurate Specified Run}{29}{subsection.139}%
 \contentsline {subsection}{\numberline {4.9.2}Synchronized Specification}{31}{subsection.146}%
 \contentsline {chapter}{\numberline {5}Conclusion \& Future Work}{33}{chapter.151}%
-\contentsline {section}{\numberline {5.1}Conclusion}{36}{section.154}%
+\contentsline {section}{\numberline {5.1}Conclusion}{33}{section.152}%
+\contentsline {section}{\numberline {5.2}Future Work}{34}{section.153}%
+\contentsline {subsection}{\numberline {5.2.1}Enhanced User Experience:}{34}{subsection.154}%
+\contentsline {subsection}{\numberline {5.2.2}Machine Learning Integration:}{34}{subsection.155}%
+\contentsline {subsection}{\numberline {5.2.3}Facial Recognition}{34}{subsection.156}%
+\contentsline {subsection}{\numberline {5.2.4}Personalized Recommendations:}{34}{subsection.157}%
+\contentsline {subsection}{\numberline {5.2.5}Integration of Payment Gateways:}{35}{subsection.158}%
+\contentsline {subsection}{\numberline {5.2.6}Multi-Language Support:}{35}{subsection.159}%
+\contentsline {subsection}{\numberline {5.2.7}Real-Time Chat and Customer Support:}{35}{subsection.160}%
+\contentsline {subsection}{\numberline {5.2.8}Inventory Management System:}{35}{subsection.161}%
+\contentsline {subsection}{\numberline {5.2.9}Social Media Integration:}{35}{subsection.162}%
+\contentsline {subsection}{\numberline {5.2.10}Third Party Integration for Sign-in:}{36}{subsection.163}%
+\contentsline {subsection}{\numberline {5.2.11}Integration with Other E-commerce Platforms:}{36}{subsection.164}%
+\contentsline {subsection}{\numberline {5.2.12}Customer Analytics Dashboard:}{36}{subsection.165}%
+\contentsline {subsection}{\numberline {5.2.13}Mobile Application Development:}{36}{subsection.166}%
+\contentsline {subsection}{\numberline {5.2.14}Offline Access and Progressive Web App (PWA):}{36}{subsection.167}%
+\contentsline {subsection}{\numberline {5.2.15}Import data from Business Websites:}{37}{subsection.168}%
+\contentsline {subsection}{\numberline {5.2.16}Integration with Local Services:}{37}{subsection.169}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{37}{appendix.155}%
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{38}{appendix.170}%
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{38}{dummy.156}%
+\contentsline {chapter}{Bibliography}{39}{dummy.171}%

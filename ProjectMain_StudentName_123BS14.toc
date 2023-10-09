@@ -53,97 +53,96 @@
 \contentsline {subsection}{\numberline {3.1.7}Summary}{12}{subsection.52}%
 \contentsline {section}{\numberline {3.2}Architecture Overview}{13}{section.53}%
 \contentsline {subsection}{\numberline {3.2.1}Entity Relationship Diagram (ERD) }{13}{subsection.55}%
-\contentsline {subsection}{\numberline {3.2.3}Mathematical}{13}{subsection.58}%
+\contentsline {section}{\numberline {3.3}Design Description}{13}{section.58}%
 \contentsline {subsection}{\numberline {3.2.2}Class Diagram (UML) }{14}{subsection.57}%
-\contentsline {section}{\numberline {3.3}Design Description}{14}{section.59}%
-\contentsline {chapter}{\numberline {4}Implementation and Evaluation}{15}{chapter.61}%
-\contentsline {section}{\numberline {4.1}Development Stages }{15}{section.62}%
-\contentsline {subsection}{\numberline {4.1.1}Strategy Stage}{15}{subsection.63}%
-\contentsline {section}{\numberline {4.2}Implementation}{15}{section.64}%
-\contentsline {subsection}{\numberline {4.2.1}Tools and Technologies}{16}{subsection.65}%
-\contentsline {section}{\numberline {4.3}System Integration}{17}{section.82}%
-\contentsline {section}{\numberline {4.4}User Interface}{17}{section.83}%
-\contentsline {subsection}{\numberline {4.4.1}Login}{18}{subsection.85}%
-\contentsline {subsection}{\numberline {4.4.2}Register}{18}{subsection.87}%
-\contentsline {subsection}{\numberline {4.4.3}Forgot Password}{19}{subsection.89}%
-\contentsline {subsection}{\numberline {4.4.4}Profile}{19}{subsection.91}%
-\contentsline {subsection}{\numberline {4.4.5}Profile Edit}{20}{subsection.93}%
-\contentsline {subsection}{\numberline {4.4.6}Seller Dashboard}{20}{subsection.95}%
-\contentsline {subsection}{\numberline {4.4.7}Seller Shops}{21}{subsection.97}%
-\contentsline {subsection}{\numberline {4.4.8}Seller Shop Create}{21}{subsection.99}%
-\contentsline {subsection}{\numberline {4.4.9}Seller Add Product}{22}{subsection.101}%
-\contentsline {subsection}{\numberline {4.4.10}Seller Add Service}{22}{subsection.103}%
-\contentsline {subsection}{\numberline {4.4.11}Seller Products and Services Listing}{23}{subsection.105}%
-\contentsline {subsection}{\numberline {4.4.12}Customer Home}{23}{subsection.107}%
-\contentsline {subsection}{\numberline {4.4.13}Customer Searching Around}{24}{subsection.109}%
-\contentsline {subsection}{\numberline {4.4.14}Customer Requesting Order}{24}{subsection.111}%
-\contentsline {subsection}{\numberline {4.4.15}Customer Order Requests History}{25}{subsection.113}%
-\contentsline {subsection}{\numberline {4.4.16}Customer Favorites}{25}{subsection.115}%
-\contentsline {subsection}{\numberline {4.4.17}Dark Mode}{26}{subsection.117}%
-\contentsline {section}{\numberline {4.5}Hardware Interface}{26}{section.118}%
-\contentsline {subsection}{\numberline {4.5.1}Hardware Requirements}{26}{subsection.119}%
-\contentsline {section}{\numberline {4.6}Evaluation}{27}{section.120}%
-\contentsline {section}{\numberline {4.7}Unit Testing}{27}{section.121}%
-\contentsline {subsection}{\numberline {4.7.1}Frontend Components}{28}{subsection.122}%
-\contentsline {subsection}{\numberline {4.7.2}Backend API Endpoints}{28}{subsection.123}%
-\contentsline {subsection}{\numberline {4.7.3}Database Interactions}{28}{subsection.124}%
-\contentsline {subsection}{\numberline {4.7.4}Integration Testing}{28}{subsection.125}%
-\contentsline {subsection}{\numberline {4.7.5}Error Handling and Edge Cases}{28}{subsection.126}%
-\contentsline {section}{\numberline {4.8}Test Cases}{29}{section.127}%
-\contentsline {subsection}{\numberline {4.8.1}Frontend Components}{29}{subsection.128}%
-\contentsline {subsubsection}{\numberline {4.8.1.1}Test Case 1: User Registration Form Validation}{29}{subsubsection.130}%
-\contentsline {subsubsection}{\numberline {4.8.1.2}Test Case 2: Product/Service Image Uploading \& Recognition}{30}{subsubsection.135}%
-\contentsline {subsubsection}{\numberline {4.8.1.3}Test Case 3: Product/Service Component Rendering}{31}{subsubsection.142}%
-\contentsline {subsubsection}{\numberline {4.8.1.4}Test Case 4: Order Request with Message}{31}{subsubsection.146}%
-\contentsline {subsubsection}{\numberline {4.8.1.5}Test Case 5: Search Box Functionality}{32}{subsubsection.152}%
-\contentsline {subsection}{\numberline {4.8.2}Backend API Endpoints}{32}{subsection.156}%
-\contentsline {subsubsection}{\numberline {4.8.2.1}Test Case 6: Response of Product Listing Endpoint}{32}{subsubsection.158}%
-\contentsline {subsubsection}{\numberline {4.8.2.2}Test Case 7: Error Handling of Invalid Request}{33}{subsubsection.162}%
-\contentsline {subsection}{\numberline {4.8.3}Database Interactions}{33}{subsection.165}%
-\contentsline {subsubsection}{\numberline {4.8.3.1}Test Case 8: Product Data Retrieval}{33}{subsubsection.167}%
-\contentsline {subsubsection}{\numberline {4.8.3.2}Test Case 9: Adding New Product}{34}{subsubsection.171}%
-\contentsline {subsection}{\numberline {4.8.4}Integration Testing}{34}{subsection.175}%
-\contentsline {subsubsection}{\numberline {4.8.4.1}Test Case 10: Integration of User Authentication}{34}{subsubsection.177}%
-\contentsline {subsubsection}{\numberline {4.8.4.2}Test Case 11: Integration of Product Listing}{35}{subsubsection.182}%
-\contentsline {subsection}{\numberline {4.8.5}Error Handling and Edge Cases}{35}{subsection.185}%
-\contentsline {subsubsection}{\numberline {4.8.5.1}Test Case 12: Invalid User Authentication}{35}{subsubsection.187}%
-\contentsline {subsubsection}{\numberline {4.8.5.2}Test Case 13: Product Listing Empty}{36}{subsubsection.192}%
-\contentsline {subsubsection}{\numberline {4.8.5.3}Test Case 14: Invalid Product Addition}{36}{subsubsection.196}%
-\contentsline {section}{\numberline {4.9}Functional Testing}{37}{section.200}%
-\contentsline {subsection}{\numberline {4.9.1}User Authentication and Authorization}{37}{subsection.201}%
-\contentsline {subsection}{\numberline {4.9.2}Product and Service Listings}{37}{subsection.202}%
-\contentsline {subsection}{\numberline {4.9.3}Order Placement and Management}{37}{subsection.203}%
-\contentsline {subsection}{\numberline {4.9.4}Location-Based Features}{37}{subsection.204}%
-\contentsline {subsection}{\numberline {4.9.5}Search and Filtering}{38}{subsection.205}%
-\contentsline {subsection}{\numberline {4.9.6}Error Handling}{38}{subsection.206}%
-\contentsline {subsection}{\numberline {4.9.7}UI/UX Testing}{38}{subsection.207}%
-\contentsline {subsection}{\numberline {4.9.8}Testing Requirements}{38}{subsection.208}%
-\contentsline {subsubsection}{\numberline {4.9.8.1}User Authentication:}{38}{subsubsection.209}%
-\contentsline {subsubsection}{\numberline {4.9.8.2}Product and Service Listings:}{39}{subsubsection.210}%
-\contentsline {subsubsection}{\numberline {4.9.8.3}Orders Management:}{39}{subsubsection.211}%
-\contentsline {subsubsection}{\numberline {4.9.8.4}Location-Based Features:}{39}{subsubsection.212}%
-\contentsline {subsubsection}{\numberline {4.9.8.5}Search and Filtering:}{40}{subsubsection.213}%
-\contentsline {subsubsection}{\numberline {4.9.8.6}Error Handling:}{40}{subsubsection.214}%
-\contentsline {subsubsection}{\numberline {4.9.8.7}UI/UX Testing:}{40}{subsubsection.215}%
-\contentsline {chapter}{\numberline {5}Conclusion \& Future Work}{41}{chapter.216}%
-\contentsline {section}{\numberline {5.1}Conclusion}{41}{section.217}%
-\contentsline {section}{\numberline {5.2}Future Work}{42}{section.218}%
-\contentsline {subsection}{\numberline {5.2.1}Enhanced User Experience:}{42}{subsection.219}%
-\contentsline {subsection}{\numberline {5.2.2}Machine Learning Integration:}{42}{subsection.220}%
-\contentsline {subsection}{\numberline {5.2.3}Facial Recognition}{42}{subsection.221}%
-\contentsline {subsection}{\numberline {5.2.4}Personalized Recommendations:}{42}{subsection.222}%
-\contentsline {subsection}{\numberline {5.2.5}Integration of Payment Gateways:}{43}{subsection.223}%
-\contentsline {subsection}{\numberline {5.2.6}Multi-Language Support:}{43}{subsection.224}%
-\contentsline {subsection}{\numberline {5.2.7}Real-Time Chat and Customer Support:}{43}{subsection.225}%
-\contentsline {subsection}{\numberline {5.2.8}Inventory Management System:}{43}{subsection.226}%
-\contentsline {subsection}{\numberline {5.2.9}Social Media Integration:}{43}{subsection.227}%
-\contentsline {subsection}{\numberline {5.2.10}Third Party Integration for Sign-in:}{44}{subsection.228}%
-\contentsline {subsection}{\numberline {5.2.11}Integration with Other E-commerce Platforms:}{44}{subsection.229}%
-\contentsline {subsection}{\numberline {5.2.12}Customer Analytics Dashboard:}{44}{subsection.230}%
-\contentsline {subsection}{\numberline {5.2.13}Mobile Application Development:}{44}{subsection.231}%
-\contentsline {subsection}{\numberline {5.2.14}Offline Access and Progressive Web App (PWA):}{44}{subsection.232}%
-\contentsline {subsection}{\numberline {5.2.15}Import data from Business Websites:}{45}{subsection.233}%
-\contentsline {subsection}{\numberline {5.2.16}Integration with Local Services:}{45}{subsection.234}%
+\contentsline {chapter}{\numberline {4}Implementation and Evaluation}{15}{chapter.59}%
+\contentsline {section}{\numberline {4.1}Development Stages }{15}{section.60}%
+\contentsline {subsection}{\numberline {4.1.1}Strategy Stage}{15}{subsection.61}%
+\contentsline {section}{\numberline {4.2}Implementation}{15}{section.62}%
+\contentsline {subsection}{\numberline {4.2.1}Tools and Technologies}{16}{subsection.63}%
+\contentsline {section}{\numberline {4.3}System Integration}{17}{section.80}%
+\contentsline {section}{\numberline {4.4}User Interface}{17}{section.81}%
+\contentsline {subsection}{\numberline {4.4.1}Login}{18}{subsection.83}%
+\contentsline {subsection}{\numberline {4.4.2}Register}{18}{subsection.85}%
+\contentsline {subsection}{\numberline {4.4.3}Forgot Password}{19}{subsection.87}%
+\contentsline {subsection}{\numberline {4.4.4}Profile}{19}{subsection.89}%
+\contentsline {subsection}{\numberline {4.4.5}Profile Edit}{20}{subsection.91}%
+\contentsline {subsection}{\numberline {4.4.6}Seller Dashboard}{20}{subsection.93}%
+\contentsline {subsection}{\numberline {4.4.7}Seller Shops}{21}{subsection.95}%
+\contentsline {subsection}{\numberline {4.4.8}Seller Shop Create}{21}{subsection.97}%
+\contentsline {subsection}{\numberline {4.4.9}Seller Add Product}{22}{subsection.99}%
+\contentsline {subsection}{\numberline {4.4.10}Seller Add Service}{22}{subsection.101}%
+\contentsline {subsection}{\numberline {4.4.11}Seller Products and Services Listing}{23}{subsection.103}%
+\contentsline {subsection}{\numberline {4.4.12}Customer Home}{23}{subsection.105}%
+\contentsline {subsection}{\numberline {4.4.13}Customer Searching Around}{24}{subsection.107}%
+\contentsline {subsection}{\numberline {4.4.14}Customer Requesting Order}{24}{subsection.109}%
+\contentsline {subsection}{\numberline {4.4.15}Customer Order Requests History}{25}{subsection.111}%
+\contentsline {subsection}{\numberline {4.4.16}Customer Favorites}{25}{subsection.113}%
+\contentsline {subsection}{\numberline {4.4.17}Dark Mode}{26}{subsection.115}%
+\contentsline {section}{\numberline {4.5}Hardware Interface}{26}{section.116}%
+\contentsline {subsection}{\numberline {4.5.1}Hardware Requirements}{26}{subsection.117}%
+\contentsline {section}{\numberline {4.6}Evaluation}{27}{section.118}%
+\contentsline {section}{\numberline {4.7}Unit Testing}{27}{section.119}%
+\contentsline {subsection}{\numberline {4.7.1}Frontend Components}{28}{subsection.120}%
+\contentsline {subsection}{\numberline {4.7.2}Backend API Endpoints}{28}{subsection.121}%
+\contentsline {subsection}{\numberline {4.7.3}Database Interactions}{28}{subsection.122}%
+\contentsline {subsection}{\numberline {4.7.4}Integration Testing}{28}{subsection.123}%
+\contentsline {subsection}{\numberline {4.7.5}Error Handling and Edge Cases}{28}{subsection.124}%
+\contentsline {section}{\numberline {4.8}Test Cases}{29}{section.125}%
+\contentsline {subsection}{\numberline {4.8.1}Frontend Components}{29}{subsection.126}%
+\contentsline {subsubsection}{\numberline {4.8.1.1}Test Case 1: User Registration Form Validation}{29}{subsubsection.128}%
+\contentsline {subsubsection}{\numberline {4.8.1.2}Test Case 2: Product/Service Image Uploading \& Recognition}{30}{subsubsection.133}%
+\contentsline {subsubsection}{\numberline {4.8.1.3}Test Case 3: Product/Service Component Rendering}{31}{subsubsection.140}%
+\contentsline {subsubsection}{\numberline {4.8.1.4}Test Case 4: Order Request with Message}{31}{subsubsection.144}%
+\contentsline {subsubsection}{\numberline {4.8.1.5}Test Case 5: Search Box Functionality}{32}{subsubsection.150}%
+\contentsline {subsection}{\numberline {4.8.2}Backend API Endpoints}{32}{subsection.154}%
+\contentsline {subsubsection}{\numberline {4.8.2.1}Test Case 6: Response of Product Listing Endpoint}{32}{subsubsection.156}%
+\contentsline {subsubsection}{\numberline {4.8.2.2}Test Case 7: Error Handling of Invalid Request}{33}{subsubsection.160}%
+\contentsline {subsection}{\numberline {4.8.3}Database Interactions}{33}{subsection.163}%
+\contentsline {subsubsection}{\numberline {4.8.3.1}Test Case 8: Product Data Retrieval}{33}{subsubsection.165}%
+\contentsline {subsubsection}{\numberline {4.8.3.2}Test Case 9: Adding New Product}{34}{subsubsection.169}%
+\contentsline {subsection}{\numberline {4.8.4}Integration Testing}{34}{subsection.173}%
+\contentsline {subsubsection}{\numberline {4.8.4.1}Test Case 10: Integration of User Authentication}{34}{subsubsection.175}%
+\contentsline {subsubsection}{\numberline {4.8.4.2}Test Case 11: Integration of Product Listing}{35}{subsubsection.180}%
+\contentsline {subsection}{\numberline {4.8.5}Error Handling and Edge Cases}{35}{subsection.183}%
+\contentsline {subsubsection}{\numberline {4.8.5.1}Test Case 12: Invalid User Authentication}{35}{subsubsection.185}%
+\contentsline {subsubsection}{\numberline {4.8.5.2}Test Case 13: Product Listing Empty}{36}{subsubsection.190}%
+\contentsline {subsubsection}{\numberline {4.8.5.3}Test Case 14: Invalid Product Addition}{36}{subsubsection.194}%
+\contentsline {section}{\numberline {4.9}Functional Testing}{37}{section.198}%
+\contentsline {subsection}{\numberline {4.9.1}User Authentication and Authorization}{37}{subsection.199}%
+\contentsline {subsection}{\numberline {4.9.2}Product and Service Listings}{37}{subsection.200}%
+\contentsline {subsection}{\numberline {4.9.3}Order Placement and Management}{37}{subsection.201}%
+\contentsline {subsection}{\numberline {4.9.4}Location-Based Features}{37}{subsection.202}%
+\contentsline {subsection}{\numberline {4.9.5}Search and Filtering}{38}{subsection.203}%
+\contentsline {subsection}{\numberline {4.9.6}Error Handling}{38}{subsection.204}%
+\contentsline {subsection}{\numberline {4.9.7}UI/UX Testing}{38}{subsection.205}%
+\contentsline {subsection}{\numberline {4.9.8}Testing Requirements}{38}{subsection.206}%
+\contentsline {subsubsection}{\numberline {4.9.8.1}User Authentication:}{38}{subsubsection.207}%
+\contentsline {subsubsection}{\numberline {4.9.8.2}Product and Service Listings:}{39}{subsubsection.208}%
+\contentsline {subsubsection}{\numberline {4.9.8.3}Orders Management:}{39}{subsubsection.209}%
+\contentsline {subsubsection}{\numberline {4.9.8.4}Location-Based Features:}{39}{subsubsection.210}%
+\contentsline {subsubsection}{\numberline {4.9.8.5}Search and Filtering:}{40}{subsubsection.211}%
+\contentsline {subsubsection}{\numberline {4.9.8.6}Error Handling:}{40}{subsubsection.212}%
+\contentsline {subsubsection}{\numberline {4.9.8.7}UI/UX Testing:}{40}{subsubsection.213}%
+\contentsline {chapter}{\numberline {5}Conclusion \& Future Work}{41}{chapter.214}%
+\contentsline {section}{\numberline {5.1}Conclusion}{41}{section.215}%
+\contentsline {section}{\numberline {5.2}Future Work}{42}{section.216}%
+\contentsline {subsection}{\numberline {5.2.1}Enhanced User Experience:}{42}{subsection.217}%
+\contentsline {subsection}{\numberline {5.2.2}Machine Learning Integration:}{42}{subsection.218}%
+\contentsline {subsection}{\numberline {5.2.3}Facial Recognition}{42}{subsection.219}%
+\contentsline {subsection}{\numberline {5.2.4}Personalized Recommendations:}{42}{subsection.220}%
+\contentsline {subsection}{\numberline {5.2.5}Integration of Payment Gateways:}{43}{subsection.221}%
+\contentsline {subsection}{\numberline {5.2.6}Multi-Language Support:}{43}{subsection.222}%
+\contentsline {subsection}{\numberline {5.2.7}Real-Time Chat and Customer Support:}{43}{subsection.223}%
+\contentsline {subsection}{\numberline {5.2.8}Inventory Management System:}{43}{subsection.224}%
+\contentsline {subsection}{\numberline {5.2.9}Social Media Integration:}{43}{subsection.225}%
+\contentsline {subsection}{\numberline {5.2.10}Third Party Integration for Sign-in:}{44}{subsection.226}%
+\contentsline {subsection}{\numberline {5.2.11}Integration with Other E-commerce Platforms:}{44}{subsection.227}%
+\contentsline {subsection}{\numberline {5.2.12}Customer Analytics Dashboard:}{44}{subsection.228}%
+\contentsline {subsection}{\numberline {5.2.13}Mobile Application Development:}{44}{subsection.229}%
+\contentsline {subsection}{\numberline {5.2.14}Offline Access and Progressive Web App (PWA):}{44}{subsection.230}%
+\contentsline {subsection}{\numberline {5.2.15}Import data from Business Websites:}{45}{subsection.231}%
+\contentsline {subsection}{\numberline {5.2.16}Integration with Local Services:}{45}{subsection.232}%
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{46}{dummy.235}%
+\contentsline {chapter}{Bibliography}{46}{dummy.233}%

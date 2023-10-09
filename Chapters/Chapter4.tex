@@ -206,151 +206,547 @@ Here are some minimal requirements of hardware to run this Web Application:
 
 \section{Evaluation}
 Each element of our website is meticulously designed based on the findings of Market Shop Sellers and Customer Research, which takes into account criteria such as technical knowledge, and comprehension.The user is given a seamless experience, allowing them to easily see, update, upload, and manage their data. While designing the website, Human Computer Interaction concepts were taken into account, allowing the user to see where they are presently working and easy to use. Before releasing the website, we make sure that all of the tabs and buttons are visible and double-checked and everything is working properly. Once the website is ready for the user, it will be extensively tested and any necessary changes will be done. Hence the website is user friendly and unambiguous.
+
 \section{Unit Testing}
+
+Unit testing is a crucial component of the development process in "Track My Shop." It involves testing individual units or components of the application to ensure their accuracy, reliability, and correctness. The primary focus is to verify that each unit of the software performs as designed.
+
+In this project, unit testing will encompass the following aspects:
+
+\subsection{Frontend Components} Test individual frontend components like UI elements, input fields, buttons, and their respective functionalities to ensure proper rendering and interactivity.
+	
+\subsection{Backend API Endpoints} Test the backend API endpoints using testing frameworks to verify their response, data integrity, error handling, and authentication mechanisms.
+	
+\subsection{Database Interactions} Test the interactions with the database, including CRUD operations, to ensure accurate data retrieval, storage, and manipulation.
+	
+\subsection{Integration Testing} Conduct integration tests to validate the interaction and communication between different modules, ensuring the overall system functions seamlessly.
+	
+\subsection{Error Handling and Edge Cases} Perform tests to evaluate the system's behavior under various error conditions and edge cases to guarantee robustness and graceful error handling.
+
+
+Adopting a comprehensive unit testing strategy will enhance the project's quality, reduce bugs, and provide a stable and reliable application for users.
+
+\section{Test Cases}
+Unit testing is a crucial component of the development process in "Track My Shop". It involves testing individual units or components of the application to ensure their accuracy, reliability, and correctness. The primary focus is to verify that each unit of the software performs as designed. Here are some test cases for major units of the application:
+
+
+\subsection{Frontend Components}
+
+Here are the unit test cases for the frontend components:
+
+
+% Table for User Registration Form Validation test case
+\begin{table}[h]
+	\subsubsection{Test Case 1: User Registration Form Validation}
+	\centering
+	\caption{User Registration Form Validation (TC1)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC1 \\
+		\hline
+		\textbf{Test Case Name} & User Registration Form Validation \\
+		\hline
+		\textbf{Component} & User Registration Form \\
+		\hline
+		\textbf{Input} & Incomplete or incorrect user registration details \\
+		\hline
+		\textbf{Expected Output} & Prevent registration and display appropriate validation errors \\
+		\hline
+		\textbf{Test Steps} & 
+		\begin{enumerate}
+			\item Fill the registration form with incomplete or incorrect details
+			\item Attempt to submit the registration form
+			\item Check the interface to verify appropriate validation errors are displayed
+		\end{enumerate} \\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\pagebreak
+% Table for Product Image Uploading test case
+\begin{table}[h]
+	\subsubsection{Test Case 2: Product/Service Image Uploading \& Recognition}
+	\centering
+	\caption{Product Image Uploading (TC2)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC2 \\
+		\hline
+		\textbf{Test Case Name} & Product/Service Image Uploading and Recognition \\
+		\hline
+		\textbf{Component} & Product/Service Image Chooser / Image Capturing Camera\\
+		\hline
+		\textbf{Input} & Image upload/capture request \\
+		\hline
+		\textbf{Expected Output} & Successful image upload and display in the product/service management UI \\
+		\hline
+		\textbf{Test Steps} & 
+		\begin{enumerate}
+			\item Initiate image upload process
+			\item Check the Recognize Image button visibility under image
+			\item Recognize Image by using button
+			\item Check the UI to verify the image is displayed appropriately
+			\item Check the product/service form to verify recognized data
+		\end{enumerate} \\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+\pagebreak
+
+\begin{table}[h]
+	\subsubsection{Test Case 3: Product/Service Component Rendering}
+	\centering
+	\caption{Unit Test for Rendering Product/Service Display Component (TC3)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC3 \\
+		\hline
+		\textbf{Test Case Name} & Rendering Product/Service Display \\
+		\hline
+		\textbf{Component} & Product/Service Display Component \\
+		\hline
+		\textbf{Input} & None (Component rendering) \\
+		\hline
+		\textbf{Expected Output} & Rendered product/service display \\
+		\hline
+		\textbf{Test Steps} & \begin{enumerate}
+			\item Load the application 
+			\item Navigate to the page where the products/services display component is rendered 
+		\end{enumerate} \\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+
+
+% Table for Order Request with Message test case
+\begin{table}[h]
+	\subsubsection{Test Case 4: Order Request with Message}
+	\centering
+	\caption{Order Request with Message (TC4)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC4 \\
+		\hline
+		\textbf{Test Case Name} & Order Request with Message \\
+		\hline
+		\textbf{Component} & Order Management UI \\
+		\hline
+		\textbf{Input} & Order request along with an optional message from the customer \\
+		\hline
+		\textbf{Expected Output} & Successful submission of the order request with the attached message \\
+		\hline
+		\textbf{Test Steps} & 
+		\begin{enumerate}
+			\item Select a product and initiate the order request process
+			\item Provide additional instructions or messages (optional)
+			\item Complete the order request
+			\item Check all order requests table to verify the order request was successful
+		\end{enumerate} \\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\pagebreak
+% Table for Search Bar Functionality test case
+\begin{table}[h]
+	\subsubsection{Test Case 5: Search Box Functionality}
+	\centering
+	\caption{Search Bar Functionality (TC5)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC5 \\
+		\hline
+		\textbf{Test Case Name} & Search Box Functionality \\
+		\hline
+		\textbf{Component} & Search Bar, Image Capturing Camera, Search Radius Field \\
+		\hline
+		\textbf{Input} & Search query, Search Image, Distance radius \\
+		\hline
+		\textbf{Expected Output} & Display of relevant search results \\
+		\hline
+		\textbf{Test Steps} & 
+		\begin{enumerate}
+			\item Enter a search query in the search bar
+			\item Initiate the search process
+			\item Check the interface to verify relevant search results are displayed
+		\end{enumerate} \\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+\subsection{Backend API Endpoints}
+
+Here are the unit test cases for the backend API endpoints:
+
+\begin{table}[h]
+	\subsubsection{Test Case 6: Response of Product Listing Endpoint}
+	\centering
+	\caption{Test Case for Response of Product Listing Endpoint (TC6)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC6 \\
+		\hline
+		\textbf{Test Case Name} & Response of Product Listing Endpoint \\
+		\hline
+		\textbf{Endpoint} & Product Listing \\
+		\hline
+		\textbf{Input} & Send a request to the product listing endpoint \\
+		\hline
+		\textbf{Expected Output} & Receive a list of products \\
+		\hline
+		\textbf{Test Steps} & \begin{enumerate}
+			\item Send a valid request to the product listing endpoint 
+			\item Receive the response from the endpoint 
+		\end{enumerate}\\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[h]
+	\subsubsection{Test Case 7: Error Handling of Invalid Request}
+	\centering
+	\caption{Test Case for Error Handling of Invalid Request (TC7)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC7 \\
+		\hline
+		\textbf{Test Case Name} & Error Handling of Invalid Request \\
+		\hline
+		\textbf{Endpoint} & Any API Endpoint \\
+		\hline
+		\textbf{Input} & Send an invalid request \\
+		\hline
+		\textbf{Expected Output} & Receive an appropriate error response \\
+		\hline
+		\textbf{Test Steps} & \begin{enumerate}
+			\item Send an invalid request to the specified endpoint
+			\item Receive the error response from the endpoint
+		\end{enumerate} \\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+\pagebreak
+\subsection{Database Interactions}
+
+% Table for Product Data Retrieval test case
+\begin{table}[h]
+	\subsubsection{Test Case 8: Product Data Retrieval}
+	\centering
+	\caption{Product Data Retrieval (TC8)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC8 \\
+		\hline
+		\textbf{Test Case Name} & Product Data Retrieval \\
+		\hline
+		\textbf{Component} & Database Interaction \\
+		\hline
+		\textbf{Input} & Request to retrieve product data \\
+		\hline
+		\textbf{Expected Output} & Valid product data from the database \\
+		\hline
+		\textbf{Test Steps} & \begin{enumerate}
+			\item Send a request to retrieve product data	
+			\item Check the received product data
+		\end{enumerate}\\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+% Table for Adding New Product test case
+\begin{table}[h]
+	\subsubsection{Test Case 9: Adding New Product}
+	\centering
+	\caption{Adding New Product (TC9)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC9 \\
+		\hline
+		\textbf{Test Case Name} & Adding New Product \\
+		\hline
+		\textbf{Component} & Database Interaction \\
+		\hline
+		\textbf{Input} & New product details (name, description, price, etc.) \\
+		\hline
+		\textbf{Expected Output} & Product added successfully in the database \\
+		\hline
+		\textbf{Test Steps} & \begin{enumerate}
+			\item Provide input for a new product 
+			\item Initiate the process to add the product
+			\item Check the response to verify successful addition
+			\end{enumerate} \\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\pagebreak
+\subsection{Integration Testing}
+
+% Table for Integration of User Authentication test case
+\begin{table}[h]
+	\subsubsection{Test Case 10: Integration of User Authentication}
+	\centering
+	\caption{Integration of User Authentication (TC10)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC10 \\
+		\hline
+		\textbf{Test Case Name} & Integration of User Authentication \\
+		\hline
+		\textbf{Components} & Authentication Module, Database Interaction \\
+		\hline
+		\textbf{Input} & User credentials \\
+		\hline
+		\textbf{Expected Output} & Successful user authentication \\
+		\hline
+		\textbf{Test Steps} & 
+		\begin{enumerate}
+			\item Provide user credentials
+			\item Initiate the authentication process
+			\item Check the response to verify successful authentication
+		\end{enumerate} \\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+% Table for Integration of Product Listing test case
+\begin{table}[h]
+	\subsubsection{Test Case 11: Integration of Product Listing}
+	\centering
+	\caption{Integration of Product Listing (TC11)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC11 \\
+		\hline
+		\textbf{Test Case Name} & Integration of Product Listing \\
+		\hline
+		\textbf{Components} & Product Listing Module, Database Interaction \\
+		\hline
+		\textbf{Input} & Request to list products \\
+		\hline
+		\textbf{Expected Output} & Successful retrieval of product listing \\
+		\hline
+		\textbf{Test Steps} & 
+		\begin{enumerate}
+			\item Send a request to list products
+			\item Check the response to verify the successful retrieval of product listing
+		\end{enumerate} \\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\pagebreak
+\subsection{Error Handling and Edge Cases}
+
+
+% Table for Invalid User Authentication test case
+\begin{table}[h]
+	\subsubsection{Test Case 12: Invalid User Authentication}
+	\centering
+	\caption{Invalid User Authentication (TC12)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC12 \\
+		\hline
+		\textbf{Test Case Name} & Invalid User Authentication \\
+		\hline
+		\textbf{Components} & Authentication Module, Database Interaction \\
+		\hline
+		\textbf{Input} & Incorrect user credentials \\
+		\hline
+		\textbf{Expected Output} & Authentication failure with appropriate error message \\
+		\hline
+		\textbf{Test Steps} & 
+		\begin{enumerate}
+			\item Provide incorrect user credentials
+			\item Initiate the authentication process
+			\item Check the response to verify authentication failure and error message
+		\end{enumerate} \\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+% Table for Product Listing Empty test case
+\begin{table}[h]
+	\subsubsection{Test Case 13: Product Listing Empty}
+	\centering
+	\caption{Product Listing Empty (TC13)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC13 \\
+		\hline
+		\textbf{Test Case Name} & Product Listing Empty \\
+		\hline
+		\textbf{Components} & Product Listing Module, Database Interaction \\
+		\hline
+		\textbf{Input} & Request to list products when no products are available \\
+		\hline
+		\textbf{Expected Output} & Successful retrieval with an empty product list \\
+		\hline
+		\textbf{Test Steps} & 
+		\begin{enumerate}
+			\item Send a request to list products
+			\item Check the response to verify an empty product list
+		\end{enumerate} \\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+% Add more test cases for Error Handling and Edge Cases as needed
+%-----------------------
+\pagebreak
+
+% Table for Invalid Product Addition test case
+\begin{table}[h]
+	\subsubsection{Test Case 14: Invalid Product Addition}
+	\centering
+	\caption{Invalid Product Addition (TC14)}
+	\begin{tabular}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+		\hline
+		\textbf{Test Case ID} & TC14 \\
+		\hline
+		\textbf{Test Case Name} & Invalid Product Addition \\
+		\hline
+		\textbf{Components} & Product Management Module, Database Interaction \\
+		\hline
+		\textbf{Input} & Incomplete or incorrect product details \\
+		\hline
+		\textbf{Expected Output} & Failure to add the product with an appropriate error message \\
+		\hline
+		\textbf{Test Steps} & 
+		\begin{enumerate}
+			\item Provide incomplete or incorrect product details
+			\item Attempt to add the product
+			\item Check the response to verify the error message
+		\end{enumerate} \\
+		\hline
+		\textbf{Execution Result} & Pass \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+
+%---------------------------------
+
+
+\pagebreak
 \section{Functional Testing}
+
+Functional testing is a critical aspect of ensuring the "Track My Shop" application meets its intended functional requirements. This type of testing involves validating the software's functions and features against the specified requirements and design. It primarily focuses on what the system does.
+
+Functional testing for this project encompasses the following areas:
+
+\subsection{User Authentication and Authorization} Validate the authentication process to ensure users can securely create accounts, log in, and access appropriate functionalities based on their roles.
+
+\subsection{Product and Service Listings} Verify that sellers can effectively list their products and services using various methods, including image recognition and manual entry, and customers can view and search these listings.
+
+\subsection{Order Placement and Management} Test the ordering process to ensure customers can place orders for products and services, sellers receive order requests, and they can manage and respond to these orders appropriately.
+
+\subsection{Location-Based Features} Validate the location-based functionalities such as finding nearby shops, setting a search radius, and accessing directions to physical shops.
+
+\subsection{Search and Filtering} Verify the accuracy and efficiency of the search and filtering capabilities, allowing users to search for products, services, or shops based on various criteria.
+
+\subsection{Error Handling} Test the system's behavior under erroneous conditions, ensuring that appropriate error messages and notifications are displayed to users.
+
+\subsection{UI/UX Testing} Evaluate the user interface and overall user experience to ensure it is intuitive, consistent, and adheres to design guidelines.
+	
+
+Functional testing ensures that the "Track My Shop" application performs its intended functions correctly, providing users with a seamless and reliable experience.
+
+
 \subsection{Testing Requirements}
-\section{Requirements}
-\newpage
-\begin{center}
- \textbf{ Some more samples of tables}
-\end{center}
-Another sample for Table \\ \\
-\begin{tabular}{ |p{12cm}| }
- \hline
-  \textbf{Algorithm 1:} Group-TS  \\ \hline
-\textbf{ Input:} Transition system of each member \{$T_1$, $T_2$, $T_3$\}. \\
-  \textbf{Output:} Combined Transition System of members that is \textbf{T}.
-  \begin{enumerate}
-    \item Let m = 1, 2, 3
-    \item $q^0_T$ = $q^0_m$.
-    \item recursive search on \textbf{T} starting from initial state ($q^0_T$).
-    \item $q_m$ $\in$ q.
-    \item The transition of $T_m$ is defined as $\rightarrow_m$. where $\rightarrow_m$ = (q,q')
-    \item $\tau$ : set of possible transitions and $\rightarrow_m$ $\in$ $\tau$ then do.
-    \item $\omega$ = minimum weight of $\rightarrow_m$ when the robot finds some region.
-    \item Find new state of transition system that is q' and if q' not exists then.
-    \item Insert the state q' to \textbf{T}.
-    \item Insert new transition to $\delta_T$ with assigning the weight $\omega$. where $\delta_T$ is the set of transitions.
-    \item prolong search from new state q'
-    \item else if there is no transition for (q,q') then
-    \item Include transition that is from (q,q') to $\delta_T$ with assigning the weight $\omega$
-  \end{enumerate}
- \\ \hline
-\end{tabular}
 
-\vspace{20pt}
+Functional testing for this web application necessitates a comprehensive approach that covers various functionalities and ensures their correctness and reliability. The testing requirements include:
 
-\begin{table}[h]
-\centering
-\caption{\textbf{(a)} Results after running the Transition System} % title of Table\addtolength{\tabcolsep}
-\addtolength{\tabcolsep}{-2pt}
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|} % centered columns (9 columns)
-\hline %inserts double horizontal lines
-$\mathbb{T}$ & 0 & 2 & 3 & 4 & 6 & 8 & 10 & \dots \\  [2ex] % inserts table
-%heading
-\hline % inserts single horizontal line
-$r*_{group}$ & $q_0$,$q_0$,$q_0$ & $q_1$,$q_1$,$q_1$ & $q_1$$q_0$1,$q_2$,$q_3$ & $q_0$,$q_1$,$q_2$ & $q_1$,$q_0$,$q_3$ & $q_0$,$q_1$,$q_2$ & $q_1$,$q_0$,$q_3$ & \dots \\ [2ex] % inserting body of the table
-$L_T$(.) & . & $p_1$,$p_2$,$p_4$,$\sigma$ & $p_3$,$p_5$ & $p_2$,$p_6$,$\sigma$ & $p_1$,$p_5$,$\sigma$ & $p_2$,$p_6$,$\sigma$ & $p_1$,$p_5$,$\sigma$ & \dots \\ [1.5ex]
-$r_1$* & $q_0$ & $q_1$ & . & $q_0$ & $q_1$ & $q_0$ & $q_1$ & \dots \\ [2ex]
-$r_2$* & $q_0$ & $q_1$ & $q_2$ & $q_1$ & $q_0$ & $q_1$ & $q_0$ & \dots \\ [2ex]
-$r_3$* & $q_0$ & $q_1$ & $q_3$ & $q_1$ & $q_0$ & $q_1$ & $q_0$ & \dots \\ [2ex] % [1ex] adds vertical space
-\hline %inserts single line
-\end{tabular}
-\label{table:nonlin} % is used to refer this table in the text
-\end{table}
+\subsubsection{User Authentication:}
+	\begin{itemize}
+		\item Verify that users can create accounts securely with the necessary role and personal information.
+		\item Test login functionality, ensuring users can authenticate themselves with correct credentials.
+		\item Validate the behavior of the system in case of incorrect login attempts, including appropriate error messages.
+	\end{itemize}
+	
+\subsubsection{Product and Service Listings:}
+	\begin{itemize}
+		\item Ensure sellers can accurately list products and services using various methods like image recognition, capturing image, and choosing image manually or manual entry.
+		\item Validate that sellers can edit, delete, and update product and service information as needed.
+		\item Verify that customers can view and filter product and service listings with ease.
+	\end{itemize}
+	
+\subsubsection{Orders Management:}
+	\begin{itemize}
+		\item Test the process of requesting orders, ensuring customers can successfully initiate orders for desired products and services.
+		\item Validate that sellers receive order requests promptly and can manage them effectively, including accepting or rejecting order requests.
+		\item Verify that customers receive timely notifications and updates on their orders.
+	\end{itemize}
+	
+\subsubsection{Location-Based Features:}
+	\begin{itemize}
+		\item Ensure users can find nearby shops based on their location and specified search radius.
+		\item Validate the accuracy of location-based search results, providing users with relevant and nearby options.
+		\item Test the functionality of accessing directions to physical shops from the user's current location.
+	\end{itemize}
+	
+\subsubsection{Search and Filtering:}
+	\begin{itemize}
+		\item Validate the accuracy and efficiency of the search feature, allowing users to search for products, services, or shops based on keywords.
+		\item Test capabilities to ensure users can search based on image, categories, or other relevant criteria.
+	\end{itemize}
+	
+\subsubsection{Error Handling:}
+	\begin{itemize}
+		\item Verify that the system displays appropriate error messages and notifications for incorrect inputs or erroneous actions.
+		\item Test the behavior of the system under unexpected conditions, ensuring graceful handling of errors to prevent system crashes.
+	\end{itemize}
+	
+\subsubsection{UI/UX Testing:}
+	\begin{itemize}
+		\item Validate that the user interface is consistent, intuitive, and adheres to design guidelines.
+		\item Test the responsiveness of the application across various devices and screen sizes.
+	\end{itemize}
 
-We assume in Table 4.1 the first row shows the time when the transition occur, second row represents the run $r*_{group}$, third row corresponds to the satisfied propositions, and last three rows shows the separate run of these three robots. We observed in the optimal run that ($q_0$,$q_0$,$q_0$), ($q_1$,$q_1$,$q_1$), ($q_1$$q_0$1,$q_2$,$q_3$) is prefix and ($q_0$,$q_1$,$q_2$), ($q_1$,$q_0$,$q_3$) is suffix cycle and that will be repeated an infinite number of times. The given time which satisfies the $\sigma$ is $\mathbb{T^\sigma}$ = \{2,4,6,8,10,\dots\} and the function defined in (3.2) is $C(\mathbb{T})$ = 2.
+These testing requirements form the basis for comprehensive functional testing, ensuring the application meets its intended functionalities reliably and accurately.
 
-Now, the time sequence when $\sigma$ is repeatedly satisfied is $\mathbb{T^\sigma}$ = \{2,4,6,8,10,\dots\} and cost function is given as;
 
- \hspace{30pt}  $C(\mathbb{T})$ = $\lim_{k\to+\infty}$ ($\mathbb{T}$(k+1) - $\mathbb{T}$(k))
 
-\hspace{30pt}  = $\mathbb{T}$(k+1) - $\mathbb{T}$(k)
 
-\hspace{30pt}  = 4 - 2 = 2
 
- As $C(\mathbb{T})$ = 2 is the obtained function where the $\sigma$ is repeatedly satisfied. At t=3, robot2 has reached at $q_2$ while the robot1 is still moving from $q_1$ to $q_0$, therefore $r_1$* has no correlated state to t=3.
 
- \subsection{Accurate Specified Run}
- In Algorithm.2 the exact solution is summarized and it shows that a particular solution is given to a specified problem for that case where robots have exact time information.
 
-\begin{center}
-\begin{tabular}{ |p{12cm}| }
- \hline
- \textbf{Algorithm 2:} Accurate-Run \\ \hline
-\textbf{ Input:} \{$T_1$,$T_2$, $T_3$\} \& LTL formula $\phi$. \\
-  \textbf{Result:} Different runs of each system in the form \{$r_1$*,$r_2$*,$r_3$*\} that satisfies $\phi$.
-  \begin{enumerate}
-    \item n = 1, 2, 3
-    \item Model the group transition system \textbf{T}.
-    \item Now search runs $r*_{group}$ for the system as done in Table.1.
-    \item Trace runs $r*_{group}$ on the transition systems $T_n$ to obtain the runs $r_n$*.
-    \item Then find obtained function where $\sigma$ is satisfied.
-  \end{enumerate}
- \\
- \hline
-\end{tabular}
-\end{center}
 
-As the grouped transition system \textbf{T} is constructed by using Algorithm.1 to model the team. After that we obtain a run $r*_{group}$ on \textbf{T} that satisfies the LTL formula.
 
-\vspace{10pt}
-\begin{table}[h]
-\centering
-\caption{\textbf{(b)} Results after running the Transition System} % title of Table
-\addtolength{\tabcolsep}{-6pt}
-\small
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|} % centered columns (9 columns)
-\hline %inserts double horizontal lines
-$\mathbb{T}$ & 0 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & \dots \\  [2ex] % inserts table
-%heading
-\hline % inserts single horizontal line
-$r*_{group}$ & $q_0$,$q_0$,$q_0$ & $q_1$,$q_1$,$q_1$ & $q_1$$q_0$1,$q_2$,$q_3$ & $q_0$,$q_1$,$q_2$ & $q_0$$q_1$1,$q_2$,$q_3$ & $q_1$,$q_1$,$q_1$ & $q_1$$q_0$1,$q_2$,$q_3$ & $q_0$,$q_1$,$q_2$ & $q_0$$q_1$1,$q_2$,$q_3$ & \dots \\ [2ex] % inserting body of the table
-$L_T$(.) & . & $p_1$,$p_2$,$p_4$,$\sigma$ & $p_3$,$p_5$ & $p_2$,$p_6$,$\sigma$ & $p_3$,$p_5$ & $p_1$,$p_2$,$p_4$,$\sigma$ & $p_3$,$p_5$ & $p_2$,$p_6$,$\sigma$ & $p_3$,$p_5$ & \dots \\ [2ex]
-$r_1$* & $q_0$ & $q_1$ & . & $q_0$ & . & $q_1$ & . & $q_0$ & . & \dots \\ [2ex]
-$r_2$* & $q_0$ & $q_1$ & $q_2$ & $q_1$ & $q_2$ & $q_1$ & $q_2$ & $q_1$ & $q_2$ & \dots \\ [2ex]
-$r_3$* & $q_0$ & $q_1$ & $q_3$ & $q_1$ & $q_3$ & $q_1$ & $q_3$ & $q_1$ & $q_3$ & \dots \\ [2ex] % [1ex] adds vertical space
-\hline %inserts single line
-\end{tabular}
-\label{table:nonlin} % is used to refer this table in the text
-\end{table}
-
-\vspace{10pt}
-Now similarly in Table 4.2 the first row shows the time when the transition occur, second row represents the run $r*_{group}$, third row corresponds to the satisfied propositions, and last three rows shows the separate run of three robots. As we observed in the optimal run that ($q_0$,$q_0$,$q_0$), ($q_1$,$q_1$,$q_1$) is the prefix and ($q_1$$q_0$1,$q_2$,$q_3$), ($q_0$,$q_1$,$q_2$), ($q_0$$q_1$1,$q_2$,$q_3$), ($q_1$,$q_1$,$q_1$) is the suffix cycle and that will be repeated an infinite number of times. The given time which satisfies the $\sigma$ is $\mathbb{T^\sigma}$ = \{2,4,6,8,10,\dots\} and the function defined in (3.2) is $C(\mathbb{T})$ = 2.
-
-Now as we done in Table 4.1 similarly the same procedure for this run shown in Table 4.2, the time sequence when $\sigma$ is repeatedly satisfied is $\mathbb{T^\sigma}$ = \{2,4,6,8,10,\dots\} and cost function is given as;
-
-\hspace{30pt}  $C(\mathbb{T})$ = $\lim_{k\to+\infty}$ ($\mathbb{T}$(k+1) - $\mathbb{T}$(k))
-
-\hspace{30pt}  = $\mathbb{T}$(k+1) - $\mathbb{T}$(k)
-
-\hspace{30pt}  = 4 - 2 = 2
-
- As $C(\mathbb{T})$ = 2 is the obtained function where the $\sigma$ is repeatedly satisfied.
-
- For some applications including new states and corresponding transitions to the structure of the robotic system may indicate to introducing advance stages or motion commands at some lower level. So the proper way in which the changes of these models are strictly application specific and we do not consider such details in our work. Assuming that these changes can be implemented in future.
-
- \subsection{Synchronized Specification}
- If there is a situation in which robots are moving at uncertain time and $\phi$ is not satisfied then we consider individual synchronization run for the robots that helps in guarantee the correctness of the model. In Algorithm.3 the protocols which is followed by the robots for synchronization in the field.
-
- \begin{center}
-\begin{tabular}{ |p{13cm}| }
- \hline
- \textbf{Algorithm 3:} Synchronized-Move \\ \hline
-\textbf{ Input:} $r_i$ and sequence $s_i$ of $robot_i$ \\
-  \textbf{Result:} Simple synchronized moves for each robot that satisfies $\phi$.
-  \begin{itemize}
-    \item Initialized z at 0 and while True do
-  \end{itemize}
-    \begin{enumerate}
-    \item report all the members.
-    \item wait until all members received their information message.
-    \item after satisfying propositions at $r_i^{z}$ create a transition to $r_i^{z+1}$.
-    \item z = z+1.
-  \end{enumerate}
- \\
- \hline
-\end{tabular}
-\end{center}
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  10 OCT 2023 13:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  10 OCT 2023 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -767,7 +767,10 @@ File: Pictures//design-description.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures//design-description.jpg  used on input line 1
 26.
 (pdftex.def)             Requested size: 417.47307pt x 219.17845pt.
-) (./Chapters/Chapter4.tex [17 <./Pictures//design-description.jpg>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./Pictures//design-description.jpg>]) (./Chapters/Chapter4.tex
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Implementation and Evaluation
@@ -905,52 +908,39 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29 <./Pictures//customer-all-favorites-page.png> <./Pictures//dark-mode-favor
 ites-page.png>] [30] [31]
+Underfull \vbox (badness 2573) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[32]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
+ [32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Underfull \vbox (badness 5008) has occurred while \output is active []
+
+ [36]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
+ [37]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
 Underfull \hbox (badness 1297) in paragraph at lines 594--595
 []\OT1/cmr/m/n/12 Authentication fail-ure with ap-pro-pri-ate er-ror
  []
@@ -959,26 +949,13 @@ Underfull \hbox (badness 1297) in paragraph at lines 594--595
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[37] [38]
-Underfull \vbox (badness 5862) has occurred while \output is active []
 
  [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
-Underfull \vbox (badness 7888) has occurred while \output is active []
-
- [41]
-[42] [43]) (./Chapters/Chapter5.tex [44]
+[41] [42] [43]) (./Chapters/Chapter5.tex [44]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Conclusion \& Future Work
@@ -1001,8 +978,8 @@ changed.
 
 Package rerunfilecheck Info: Checksums for `ProjectMain_StudentName_123BS14.out
 ':
-(rerunfilecheck)             Before: 3610D144E631AD6F9A716FBD3B4364FA;30221
-(rerunfilecheck)             After:  515FEF5E54796E986D69E96CEF40E908;30181.
+(rerunfilecheck)             Before: 515FEF5E54796E986D69E96CEF40E908;30181
+(rerunfilecheck)             After:  B4F25A08F8F87693E7E6AC8C586BB4A7;30181.
  )
 (\end occurred inside a group at level 1)
 
@@ -1011,7 +988,7 @@ Package rerunfilecheck Info: Checksums for `ProjectMain_StudentName_123BS14.out
 Here is how much of TeX's memory you used:
  14333 strings out of 480171
  231634 string characters out of 5894489
- 524982 words of memory out of 5000000
+ 503982 words of memory out of 5000000
  31752 multiletter control sequences out of 15000+600000
  482926 words of font info for 77 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
@@ -1023,7 +1000,7 @@ cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on ProjectMain_StudentName_123BS14.pdf (64 pages, 6357937 bytes)
+Output written on ProjectMain_StudentName_123BS14.pdf (64 pages, 6357559 bytes)
 .
 PDF statistics:
  1284 PDF objects out of 1440 (max. 8388607)

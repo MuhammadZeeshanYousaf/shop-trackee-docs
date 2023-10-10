@@ -52,8 +52,8 @@
 \contentsline {subsection}{\numberline {3.1.6}Evaluation}{12}{subsection.51}%
 \contentsline {subsection}{\numberline {3.1.7}Summary}{12}{subsection.52}%
 \contentsline {section}{\numberline {3.2}Architecture Overview}{13}{section.53}%
-\contentsline {subsection}{\numberline {3.2.1}Entity Relationship Diagram (ERD) }{13}{subsection.55}%
-\contentsline {subsection}{\numberline {3.2.2}Class Diagram (UML) }{14}{subsection.57}%
+\contentsline {subsection}{\numberline {3.2.1}Class Diagram (UML) }{13}{subsection.55}%
+\contentsline {subsection}{\numberline {3.2.2}Entity Relationship Diagram (ERD) }{14}{subsection.57}%
 \contentsline {subsection}{\numberline {3.2.3}Customer Sequence Diagram }{15}{subsection.59}%
 \contentsline {subsection}{\numberline {3.2.4}Seller Sequence Diagram}{16}{subsection.61}%
 \contentsline {section}{\numberline {3.3}Design Description}{17}{section.63}%

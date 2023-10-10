@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  10 OCT 2023 13:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  11 OCT 2023 00:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -579,9 +579,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Pictures/GCULogo.PNG>] [
-2] [1
+1
 
-] [2]
+]
 ------------------------------------------------------------------------------
  Declaration
 ------------------------------------------------------------------------------
@@ -687,7 +687,7 @@ Chapter 3.
 ------------------------------------------------------------------------------
  3 Project Design
 ------------------------------------------------------------------------------
-<Pictures//iterative_process_model.jpg, id=912, 1091.07625pt x 612.2875pt>
+<Pictures//iterative_process_model.jpg, id=905, 1091.07625pt x 612.2875pt>
 File: Pictures//iterative_process_model.jpg Graphic file (type jpg)
 <use Pictures//iterative_process_model.jpg>
 Package pdftex.def Info: Pictures//iterative_process_model.jpg  used on input l
@@ -701,44 +701,44 @@ Overfull \hbox (9.31827pt too wide) in paragraph at lines 16--17
 [10
 
  <./Pictures//iterative_process_model.jpg>] [11] [12]
-<Pictures//Entity-Relationship_Diagram.jpg, id=929, 3809.23125pt x 2034.60126pt
->
-File: Pictures//Entity-Relationship_Diagram.jpg Graphic file (type jpg)
-<use Pictures//Entity-Relationship_Diagram.jpg>
-Package pdftex.def Info: Pictures//Entity-Relationship_Diagram.jpg  used on inp
-ut line 91.
-(pdftex.def)             Requested size: 483.69684pt x 258.32939pt.
+<Pictures//TrackMyShop_CD.jpg, id=921, 4033.0675pt x 3526.17375pt>
+File: Pictures//TrackMyShop_CD.jpg Graphic file (type jpg)
+<use Pictures//TrackMyShop_CD.jpg>
+Package pdftex.def Info: Pictures//TrackMyShop_CD.jpg  used on input line 91.
+(pdftex.def)             Requested size: 483.69684pt x 422.85358pt.
 
 Overfull \hbox (66.22377pt too wide) in paragraph at lines 91--92
  [] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4608) has occurred while \output is active []
 
- [13 <./Pictures//Entity-Relationship_Diagram.jpg>]
-<Pictures//TrackMyShop_CD.jpg, id=934, 4033.0675pt x 3526.17375pt>
-File: Pictures//TrackMyShop_CD.jpg Graphic file (type jpg)
-<use Pictures//TrackMyShop_CD.jpg>
-Package pdftex.def Info: Pictures//TrackMyShop_CD.jpg  used on input line 99.
-(pdftex.def)             Requested size: 483.69684pt x 422.85358pt.
+ [13 <./Pictures//TrackMyShop_CD.jpg>]
+<Pictures//Entity-Relationship_Diagram.jpg, id=927, 3809.23125pt x 2034.60126pt
+>
+File: Pictures//Entity-Relationship_Diagram.jpg Graphic file (type jpg)
+<use Pictures//Entity-Relationship_Diagram.jpg>
+Package pdftex.def Info: Pictures//Entity-Relationship_Diagram.jpg  used on inp
+ut line 100.
+(pdftex.def)             Requested size: 483.69684pt x 258.32939pt.
 
-Overfull \hbox (66.22377pt too wide) in paragraph at lines 99--100
+Overfull \hbox (66.22377pt too wide) in paragraph at lines 100--101
  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14 <./Pictures//TrackMyShop_CD.jpg>]
-<Pictures//customer-sequencedigram.png, id=939, 2351.78625pt x 1486.55376pt>
+ [14 <./Pictures//Entity-Relationship_Diagram.jpg>]
+<Pictures//customer-sequencedigram.png, id=932, 2351.78625pt x 1486.55376pt>
 File: Pictures//customer-sequencedigram.png Graphic file (type png)
 <use Pictures//customer-sequencedigram.png>
 Package pdftex.def Info: Pictures//customer-sequencedigram.png  used on input l
-ine 107.
+ine 108.
 (pdftex.def)             Requested size: 459.22292pt x 290.27377pt.
 
-Overfull \hbox (41.74985pt too wide) in paragraph at lines 107--108
+Overfull \hbox (41.74985pt too wide) in paragraph at lines 108--109
  [] 
  []
 
@@ -746,14 +746,14 @@ Overfull \hbox (41.74985pt too wide) in paragraph at lines 107--108
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15 <./Pictures//customer-sequencedigram.png>]
-<Pictures//seller-sequence-diagram.png, id=945, 2368.85pt x 1486.55376pt>
+<Pictures//seller-sequence-diagram.png, id=938, 2368.85pt x 1486.55376pt>
 File: Pictures//seller-sequence-diagram.png Graphic file (type png)
 <use Pictures//seller-sequence-diagram.png>
 Package pdftex.def Info: Pictures//seller-sequence-diagram.png  used on input l
-ine 115.
+ine 116.
 (pdftex.def)             Requested size: 459.22292pt x 288.16425pt.
 
-Overfull \hbox (41.74985pt too wide) in paragraph at lines 115--116
+Overfull \hbox (41.74985pt too wide) in paragraph at lines 116--117
  [] 
  []
 
@@ -761,11 +761,11 @@ Overfull \hbox (41.74985pt too wide) in paragraph at lines 115--116
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16 <./Pictures//seller-sequence-diagram.png>]
-<Pictures//design-description.jpg, id=952, 1204.5pt x 632.3625pt>
+<Pictures//design-description.jpg, id=944, 1204.5pt x 632.3625pt>
 File: Pictures//design-description.jpg Graphic file (type jpg)
 <use Pictures//design-description.jpg>
 Package pdftex.def Info: Pictures//design-description.jpg  used on input line 1
-26.
+28.
 (pdftex.def)             Requested size: 417.47307pt x 219.17845pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -778,24 +778,24 @@ Chapter 4.
 [18
 
 ] [19] [20]
-<Pictures//login-page.png, id=985, 1927.2pt x 917.4275pt>
+<Pictures//login-page.png, id=978, 1927.2pt x 917.4275pt>
 File: Pictures//login-page.png Graphic file (type png)
 <use Pictures//login-page.png>
 Package pdftex.def Info: Pictures//login-page.png  used on input line 56.
 (pdftex.def)             Requested size: 417.47307pt x 198.72694pt.
-<Pictures//signup-page.png, id=986, 1927.2pt x 917.4275pt>
+<Pictures//signup-page.png, id=979, 1927.2pt x 917.4275pt>
 File: Pictures//signup-page.png Graphic file (type png)
 <use Pictures//signup-page.png>
 Package pdftex.def Info: Pictures//signup-page.png  used on input line 63.
 (pdftex.def)             Requested size: 417.47307pt x 198.72694pt.
  [21 <./Pictures//login-page.png> <./Pictures//signup-page.png>]
-<Pictures//forgot-password-page.png, id=993, 1927.2pt x 917.4275pt>
+<Pictures//forgot-password-page.png, id=986, 1927.2pt x 917.4275pt>
 File: Pictures//forgot-password-page.png Graphic file (type png)
 <use Pictures//forgot-password-page.png>
 Package pdftex.def Info: Pictures//forgot-password-page.png  used on input line
  71.
 (pdftex.def)             Requested size: 417.47307pt x 198.72694pt.
-<Pictures//seller-profile-page.png, id=994, 1828.8325pt x 916.42375pt>
+<Pictures//seller-profile-page.png, id=987, 1828.8325pt x 916.42375pt>
 File: Pictures//seller-profile-page.png Graphic file (type png)
 <use Pictures//seller-profile-page.png>
 Package pdftex.def Info: Pictures//seller-profile-page.png  used on input line 
@@ -804,13 +804,13 @@ Package pdftex.def Info: Pictures//seller-profile-page.png  used on input line
 
 [22 <./Pictures//forgot-password-page.png> <./Pictures//seller-profile-page.png
 >]
-<Pictures//profile-edit-page.png, id=1002, 1812.7725pt x 916.42375pt>
+<Pictures//profile-edit-page.png, id=994, 1812.7725pt x 916.42375pt>
 File: Pictures//profile-edit-page.png Graphic file (type png)
 <use Pictures//profile-edit-page.png>
 Package pdftex.def Info: Pictures//profile-edit-page.png  used on input line 86
 .
 (pdftex.def)             Requested size: 417.47307pt x 211.03871pt.
-<Pictures//seller-dashboard-page.png, id=1003, 1828.8325pt x 917.4275pt>
+<Pictures//seller-dashboard-page.png, id=995, 1828.8325pt x 917.4275pt>
 File: Pictures//seller-dashboard-page.png Graphic file (type png)
 <use Pictures//seller-dashboard-page.png>
 Package pdftex.def Info: Pictures//seller-dashboard-page.png  used on input lin
@@ -818,13 +818,13 @@ e 94.
 (pdftex.def)             Requested size: 417.47307pt x 209.42203pt.
  [23 <./Pictures//profile-edit-page.png> <./Pictures//seller-dashboard-page.png
 >]
-<Pictures//seller-shops-page.png, id=1010, 1828.8325pt x 917.4275pt>
+<Pictures//seller-shops-page.png, id=1002, 1828.8325pt x 917.4275pt>
 File: Pictures//seller-shops-page.png Graphic file (type png)
 <use Pictures//seller-shops-page.png>
 Package pdftex.def Info: Pictures//seller-shops-page.png  used on input line 10
 2.
 (pdftex.def)             Requested size: 417.47307pt x 209.42203pt.
-<Pictures//seller-shop-create-page.png, id=1011, 1828.8325pt x 1079.03125pt>
+<Pictures//seller-shop-create-page.png, id=1003, 1828.8325pt x 1079.03125pt>
 File: Pictures//seller-shop-create-page.png Graphic file (type png)
 <use Pictures//seller-shop-create-page.png>
 Package pdftex.def Info: Pictures//seller-shop-create-page.png  used on input l
@@ -832,26 +832,26 @@ ine 109.
 (pdftex.def)             Requested size: 375.7232pt x 221.68031pt.
  [24 <./Pictures//seller-shops-page.png> <./Pictures//seller-shop-create-page.p
 ng>]
-<Pictures//product-form-page.png, id=1018, 1828.8325pt x 1083.04625pt>
+<Pictures//product-form-page.png, id=1011, 1828.8325pt x 1083.04625pt>
 File: Pictures//product-form-page.png Graphic file (type png)
 <use Pictures//product-form-page.png>
 Package pdftex.def Info: Pictures//product-form-page.png  used on input line 11
 7.
 (pdftex.def)             Requested size: 417.47307pt x 247.22797pt.
-<Pictures//service-form-page.png, id=1019, 1828.8325pt x 1083.04625pt>
+<Pictures//service-form-page.png, id=1012, 1828.8325pt x 1083.04625pt>
 File: Pictures//service-form-page.png Graphic file (type png)
 <use Pictures//service-form-page.png>
 Package pdftex.def Info: Pictures//service-form-page.png  used on input line 12
 4.
 (pdftex.def)             Requested size: 375.7232pt x 222.50517pt.
  [25 <./Pictures//product-form-page.png> <./Pictures//service-form-page.png>]
-<Pictures//products-services-page.png, id=1026, 1828.8325pt x 956.57375pt>
+<Pictures//products-services-page.png, id=1019, 1828.8325pt x 956.57375pt>
 File: Pictures//products-services-page.png Graphic file (type png)
 <use Pictures//products-services-page.png>
 Package pdftex.def Info: Pictures//products-services-page.png  used on input li
 ne 132.
 (pdftex.def)             Requested size: 417.47307pt x 218.35797pt.
-<Pictures//customer-home-page.png, id=1027, 1828.8325pt x 1075.01625pt>
+<Pictures//customer-home-page.png, id=1020, 1828.8325pt x 1075.01625pt>
 File: Pictures//customer-home-page.png Graphic file (type png)
 <use Pictures//customer-home-page.png>
 Package pdftex.def Info: Pictures//customer-home-page.png  used on input line 1
@@ -859,26 +859,26 @@ Package pdftex.def Info: Pictures//customer-home-page.png  used on input line 1
 (pdftex.def)             Requested size: 417.47307pt x 245.39496pt.
  [26 <./Pictures//products-services-page.png> <./Pictures//customer-home-page.p
 ng>]
-<Pictures//searching-page.png, id=1035, 1828.8325pt x 913.4125pt>
+<Pictures//searching-page.png, id=1027, 1828.8325pt x 913.4125pt>
 File: Pictures//searching-page.png Graphic file (type png)
 <use Pictures//searching-page.png>
 Package pdftex.def Info: Pictures//searching-page.png  used on input line 148.
 (pdftex.def)             Requested size: 417.47307pt x 208.50551pt.
-<Pictures//requesting-order-page.png, id=1036, 1828.8325pt x 924.45375pt>
+<Pictures//requesting-order-page.png, id=1028, 1828.8325pt x 924.45375pt>
 File: Pictures//requesting-order-page.png Graphic file (type png)
 <use Pictures//requesting-order-page.png>
 Package pdftex.def Info: Pictures//requesting-order-page.png  used on input lin
 e 156.
 (pdftex.def)             Requested size: 417.47307pt x 211.02591pt.
  [27 <./Pictures//searching-page.png> <./Pictures//requesting-order-page.png>]
-<Pictures//customer-order-requests-page.png, id=1043, 1828.8325pt x 913.4125pt>
+<Pictures//customer-order-requests-page.png, id=1036, 1828.8325pt x 913.4125pt>
 
 File: Pictures//customer-order-requests-page.png Graphic file (type png)
 <use Pictures//customer-order-requests-page.png>
 Package pdftex.def Info: Pictures//customer-order-requests-page.png  used on in
 put line 164.
 (pdftex.def)             Requested size: 417.47307pt x 208.50551pt.
-<Pictures//customer-home-favorites-page.png, id=1044, 801.99625pt x 559.08875pt
+<Pictures//customer-home-favorites-page.png, id=1037, 801.99625pt x 559.08875pt
 >
 File: Pictures//customer-home-favorites-page.png Graphic file (type png)
 <use Pictures//customer-home-favorites-page.png>
@@ -890,14 +890,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28 <./Pictures//customer-order-requests-page.png> <./Pictures//customer-home-
 favorites-page.png>]
-<Pictures//customer-all-favorites-page.png, id=1052, 1705.37125pt x 1060.96375p
+<Pictures//customer-all-favorites-page.png, id=1044, 1705.37125pt x 1060.96375p
 t>
 File: Pictures//customer-all-favorites-page.png Graphic file (type png)
 <use Pictures//customer-all-favorites-page.png>
 Package pdftex.def Info: Pictures//customer-all-favorites-page.png  used on inp
 ut line 178.
 (pdftex.def)             Requested size: 417.47307pt x 259.71983pt.
-<Pictures//dark-mode-favorites-page.png, id=1053, 1704.3675pt x 1038.88126pt>
+<Pictures//dark-mode-favorites-page.png, id=1045, 1704.3675pt x 1038.88126pt>
 File: Pictures//dark-mode-favorites-page.png Graphic file (type png)
 <use Pictures//dark-mode-favorites-page.png>
 Package pdftex.def Info: Pictures//dark-mode-favorites-page.png  used on input 
@@ -970,27 +970,20 @@ Chapter 5.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `ProjectMain_StudentName_123BS14.out' has 
-changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ProjectMain_StudentName_123BS14.out
-':
-(rerunfilecheck)             Before: 515FEF5E54796E986D69E96CEF40E908;30181
-(rerunfilecheck)             After:  B4F25A08F8F87693E7E6AC8C586BB4A7;30181.
+Package rerunfilecheck Info: File `ProjectMain_StudentName_123BS14.out' has not
+ changed.
+(rerunfilecheck)             Checksum: 22A9FDC896EFDE402ED0FECAE19CC04D;30181.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 210 ({)
+### simple group (level 1) entered at line 209 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14333 strings out of 480171
- 231634 string characters out of 5894489
+ 14330 strings out of 480171
+ 231602 string characters out of 5894489
  503982 words of memory out of 5000000
- 31752 multiletter control sequences out of 15000+600000
- 482926 words of font info for 77 fonts, out of 8000000 for 9000
+ 31751 multiletter control sequences out of 15000+600000
+ 482584 words of font info for 76 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  75i,12n,77p,1097b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/coeus/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/e
@@ -999,12 +992,13 @@ cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on ProjectMain_StudentName_123BS14.pdf (64 pages, 6357559 bytes)
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on ProjectMain_StudentName_123BS14.pdf (62 pages, 6369532 bytes)
 .
 PDF statistics:
- 1284 PDF objects out of 1440 (max. 8388607)
- 1147 compressed objects within 12 object streams
- 304 named destinations out of 1000 (max. 500000)
+ 1281 PDF objects out of 1440 (max. 8388607)
+ 1144 compressed objects within 12 object streams
+ 302 named destinations out of 1000 (max. 500000)
  1270 words of extra memory for PDF output out of 10000 (max. 10000000)
 

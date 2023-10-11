@@ -1,29 +1,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Iterative Process Model\relax }}{10}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Track My Shop - Class Diagram\relax }}{13}{figure.caption.54}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Track My Shop - Entity Relationship Diagram\relax }}{14}{figure.caption.56}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Track My Shop - Customer Sequence Diagram\relax }}{15}{figure.caption.58}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Track My Shop - Seller Sequence Diagram\relax }}{16}{figure.caption.60}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Track My Shop - Design Description\relax }}{17}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Iterative Process Model\relax }}{11}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Track My Shop - Class Diagram\relax }}{16}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Track My Shop - Customer Sequence Diagram\relax }}{17}{figure.caption.64}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Track My Shop - Seller Sequence Diagram\relax }}{18}{figure.caption.66}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Track My Shop - Design Description\relax }}{19}{figure.caption.68}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Track My Shop - Login\relax }}{21}{figure.caption.87}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Track My Shop - Register\relax }}{21}{figure.caption.89}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Track My Shop - Forgot Password\relax }}{22}{figure.caption.91}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Track My Shop - Profile\relax }}{22}{figure.caption.93}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Track My Shop - Profile Edit\relax }}{23}{figure.caption.95}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Track My Shop - Seller Dashboard\relax }}{23}{figure.caption.97}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Track My Shop - Seller Shops\relax }}{24}{figure.caption.99}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Track My Shop - Shop Create\relax }}{24}{figure.caption.101}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Track My Shop - Add Product\relax }}{25}{figure.caption.103}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Track My Shop - Add Service\relax }}{25}{figure.caption.105}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Track My Shop - Products and Services Listing\relax }}{26}{figure.caption.107}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Track My Shop - Customer Home\relax }}{26}{figure.caption.109}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Track My Shop - Customer Searching Around\relax }}{27}{figure.caption.111}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Track My Shop - Customer Requesting Order\relax }}{27}{figure.caption.113}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Track My Shop - Customer Order Requests History\relax }}{28}{figure.caption.115}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Track My Shop - Customer Favorites\relax }}{28}{figure.caption.117}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Track My Shop - Customer Favorites\relax }}{29}{figure.caption.119}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Track My Shop - Dark Mode\relax }}{29}{figure.caption.121}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Track My Shop - Login\relax }}{23}{figure.caption.93}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Track My Shop - Register\relax }}{23}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Track My Shop - Forgot Password\relax }}{24}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Track My Shop - Profile\relax }}{24}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Track My Shop - Profile Edit\relax }}{25}{figure.caption.101}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Track My Shop - Seller Dashboard\relax }}{25}{figure.caption.103}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Track My Shop - Seller Shops\relax }}{26}{figure.caption.105}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Track My Shop - Create Shop\relax }}{26}{figure.caption.107}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Track My Shop - Add Product\relax }}{27}{figure.caption.109}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Track My Shop - Add Service\relax }}{27}{figure.caption.111}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Track My Shop - Products and Services Listing\relax }}{28}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Track My Shop - Customer Home\relax }}{28}{figure.caption.115}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Track My Shop - Customer Searching Around\relax }}{29}{figure.caption.117}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Track My Shop - Customer Requesting Order\relax }}{29}{figure.caption.119}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Track My Shop - Customer Order Requests History\relax }}{30}{figure.caption.121}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Track My Shop - Customer Favorites\relax }}{30}{figure.caption.123}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Track My Shop - Customer Favorites\relax }}{31}{figure.caption.125}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Track My Shop - Dark Mode\relax }}{31}{figure.caption.127}%
 \addvspace {10\p@ }

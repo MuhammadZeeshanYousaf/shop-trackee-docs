@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  12 OCT 2023 00:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  12 OCT 2023 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -720,11 +720,11 @@ Underfull \vbox (badness 1565) has occurred while \output is active []
 
  [13]
 [14] [15]
-<Pictures//TrackMyShop_CD.jpg, id=961, 4033.0675pt x 3526.17375pt>
+<Pictures//TrackMyShop_CD.jpg, id=961, 4029.0525pt x 3303.34125pt>
 File: Pictures//TrackMyShop_CD.jpg Graphic file (type jpg)
 <use Pictures//TrackMyShop_CD.jpg>
 Package pdftex.def Info: Pictures//TrackMyShop_CD.jpg  used on input line 123.
-(pdftex.def)             Requested size: 483.69684pt x 422.85358pt.
+(pdftex.def)             Requested size: 483.69684pt x 396.53506pt.
 
 Overfull \hbox (66.22377pt too wide) in paragraph at lines 123--124
  [] 
@@ -1076,7 +1076,7 @@ Here is how much of TeX's memory you used:
  31738 multiletter control sequences out of 15000+600000
  482584 words of font info for 76 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 75i,12n,77p,1097b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,12n,77p,1105b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/coeus/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/e
 c/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl
@@ -1085,7 +1085,7 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on ProjectMain_StudentName_123BS14.pdf (65 pages, 5741442 bytes)
+Output written on ProjectMain_StudentName_123BS14.pdf (65 pages, 5758899 bytes)
 .
 PDF statistics:
  1313 PDF objects out of 1440 (max. 8388607)

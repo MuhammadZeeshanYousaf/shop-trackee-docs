@@ -1,11 +1,133 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[scr()]{scrib}
-http://scribd.com.
+\bibitem[(n.d.)(2021)]{graphviz2021}
+Graphviz. (n.d.).
+\newblock Graph visualization software - class diagram generator, 2021.
+\newblock URL \url{https://graphviz.org/}.
+
+\bibitem[Creately.com(2019)]{creately2019}
+Creately.com.
+\newblock Creately | visual collaboration \& diagramming platform - sequence
+  diagram, 2019.
+\newblock URL \url{https://creately.com/}.
+
+\bibitem[Amazon Web~Services(2023{\natexlab{a}})]{aws-rekognition}
+Inc. Amazon Web~Services.
+\newblock Image recognition software - ml image \& video analysis - amazon
+  rekognition - aws, 2023{\natexlab{a}}.
+\newblock URL \url{https://aws.amazon.com/rekognition/}.
+
+\bibitem[Heroku(2023)]{heroku-docs}
+Heroku.
+\newblock Heroku documentation, 2023.
+\newblock URL \url{https://devcenter.heroku.com/}.
+
+\bibitem[Cloud(2023)]{google-maps-docs}
+Google Cloud.
+\newblock Google maps platform, 2023.
+\newblock URL \url{https://cloud.google.com/maps-platform}.
+
+\bibitem[Amazon Web~Services(2023{\natexlab{b}})]{aws-s3-storage}
+Inc. Amazon Web~Services.
+\newblock Cloud object storage - amazon s3, 2023{\natexlab{b}}.
+\newblock URL \url{https://aws.amazon.com/pm/serv-s3}.
+
+\bibitem[Sentry(2023)]{sentry-docs}
+Sentry.
+\newblock Sentry documentation, 2023.
+\newblock URL \url{https://docs.sentry.io/}.
+
+\bibitem[Mittelbach et~al.(2004)Mittelbach, Goossens, Braams, Carlisle, and
+  Rowley]{mittelbach2004latex}
+Frank Mittelbach, Michel Goossens, Johannes Braams, David Carlisle, and Chris
+  Rowley.
+\newblock The latex companion.
+\newblock 2004.
+
+\bibitem[on~Rails(2023)]{rails-guides}
+Ruby on~Rails.
+\newblock Ruby on rails guides, 2023.
+\newblock URL \url{https://guides.rubyonrails.org/}.
+
+\bibitem[Vercel(2023)]{nextjs-docs}
+Vercel.
+\newblock Next.js documentation, 2023.
+\newblock URL \url{https://nextjs.org/docs}.
+
+\bibitem[Harmeet~Singh(2016)]{bootstrap-reactjs}
+Mehul~Bhatt Harmeet~Singh.
+\newblock \emph{Learning Web Development with React and Bootstrap}.
+\newblock Packt Publishing, 2016.
+\newblock URL
+  \url{https://books.google.com.pk/books?id=sJf1vQAACAAJ&source=gbs_navlinks_s}.
+
+\bibitem[Material-UI(2023)]{material-ui-docs}
+Material-UI.
+\newblock Material-ui documentation, 2023.
+\newblock URL \url{https://material-ui.com/}.
+
+\bibitem[Group(2023)]{postgresql-docs}
+PostgreSQL Global~Development Group.
+\newblock Postgresql documentation, 2023.
+\newblock URL \url{https://www.postgresql.org/docs/}.
+
+\bibitem[Community(2023)]{git-docs}
+The~Git Community.
+\newblock Git documentation, 2023.
+\newblock URL \url{https://git-scm.com/doc}.
+
+\bibitem[Postman(2023)]{postman-docs}
+Postman.
+\newblock Postman documentation, 2023.
+\newblock URL
+  \url{https://learning.postman.com/docs/getting-started/introduction/}.
+
+\bibitem[Science(2023)]{git-workflows}
+Towards~Data Science.
+\newblock Continuous integration and continuous deployment (ci/cd) - a quick
+  guide, 2023.
+\newblock URL
+  \url{https://towardsdatascience.com/a-comprehensive-guide-to-different-git-workflows-ecosystem-38d3e10fdec3}.
+
+\bibitem[Smith(2017)]{smith2017microservices}
+John Smith.
+\newblock Microservices architecture: What, when, and how.
+\newblock \emph{InfoQ}, 2017.
+\newblock URL
+  \url{https://www.infoq.com/articles/microservices-architecture-introduction}.
+
+\bibitem[Contributors(2023)]{wiki-hci}
+Wikipedia Contributors.
+\newblock Human--computer interaction.
+\newblock
+  \url{https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction}, 2023.
+\newblock Wikimedia Foundation, October 1, 2023.
+
+\bibitem[ReactJS(2023)]{reactjs-docs}
+ReactJS.
+\newblock React.js documentation, 2023.
+\newblock URL \url{https://reactjs.org/docs/getting-started.html}.
+
+\bibitem[Johnson(2021)]{rest-arch}
+Mary Johnson.
+\newblock Understanding restful services, 2021.
+\newblock URL \url{https://www.restapitutorial.com/lessons/whatisrest.html}.
+
+\bibitem[IETF(2012)]{oauth-spec}
+IETF.
+\newblock Oauth 2.0 authorization framework, 2012.
+\newblock URL \url{https://tools.ietf.org/html/rfc6749}.
+
+\bibitem[Lucas~Dohmen(Published February 9, 2023)]{therails7way}
+Obie~Fernandez Lucas~Dohmen, Tom Henrik~Aadland.
+\newblock \emph{The Rails 7 Way}.
+\newblock Addison-Wesley’s Professional Ruby Series. The Lean Publishing; 1st
+  Edition, Published February 9, 2023.
+\newblock URL \url{https://leanpub.com/therails7way}.
 
 \end{thebibliography}

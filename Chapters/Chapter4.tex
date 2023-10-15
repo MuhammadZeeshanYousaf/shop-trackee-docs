@@ -17,37 +17,37 @@ Following is described about the implementation level things:
 
 \subsection{Tools and Technologies}
 \begin{enumerate}
-	\item Server-Side API Framework \textbf{Ruby on Rails}
+	\item Server-Side API Framework \textbf{Ruby on Rails} \citep{rails-guides}
 	\item Front-End Frameworks:
 	\begin{itemize}
-		\item \textbf{Next.js} (framework built on REACT Js library)
-		\item \textbf{Bootstrap5} (CSS framework)
-		\item \textbf{Google Material UI} (for interactive components)
-		\item \textbf{Google Maps API}
+		\item \textbf{Next.js} (framework built on REACT Js library) \citep{nextjs-docs}
+		\item \textbf{Bootstrap5} (CSS framework) \citep{bootstrap-reactjs}
+		\item \textbf{Google Material UI} (for interactive components) \citep{material-ui-docs}
+		\item \textbf{Google Maps API \citep{google-maps-docs}}
 	\end{itemize}
-	\item DBMS \textbf{PostgreSQL}
-	\item Version Control System (VCS): \textbf{Git, Github}
+	\item DBMS \textbf{PostgreSQL} \citep{postgresql-docs}
+	\item Version Control System (VCS): \textbf{Git, Github} \citep{git-docs}
 	\item Integrated Development Environment (IDE): \textbf{RubyMine, VS Code}
-	\item API and Web testing tool: \textbf{Postman}
+	\item API and Web testing tool: \textbf{Postman} \citep{postman-docs}
 	\item Data Caching server: \textbf{Redis}
-	\item Hosting Service for API: \textbf{Heroku}
+	\item Hosting Service for API: \textbf{Heroku} \citep{heroku-docs}
 	\item Hosting Service for Front-End App: \textbf{Amazon Static Hosting S3, Vercel}
-	\item CI | CD tool: \textbf{Github Actions}
-	\item Media Storage Service: \textbf{AWS S3}
-	\item Image Recognition Service: \textbf{AWS Rekognition}
+	\item CI | CD tool: \textbf{Github Actions}  \citep{git-workflows}
+	\item Media Storage Service: \textbf{AWS S3} \citep{aws-s3-storage}
+	\item Image Recognition Service: \textbf{AWS Rekognition \citep{aws-rekognition}}
 	\item Domain Name Service: \textbf{AWS Route53}
 	\item Domain Platform: \textbf{Namecheap.me}
-	\item Bug Report Service: \textbf{Sentry}
+	\item Bug Report Service: \textbf{Sentry} \citep{sentry-docs}
 	\item Mailer Service: \textbf{Mailjet}
-	
+	\item Documentation Writing Software: \textbf{LaTex, TeXstudio} \citep{mittelbach2004latex}
 \end{enumerate}
 
 \section{System Integration}
-System integration in the "Track A Shop: Web App" project is a critical process where all the individual components and modules of the system are combined and tested to ensure they function as a unified, cohesive unit. This integration involves merging the backend functionalities, including database management and server operations, with the frontend user interface to create a seamless and functional application. The integration process also incorporates third-party services, such as image recognition, mapping APIs and Deployment on AWS/Heroku, ensuring their proper interaction within the application. Rigorous testing and validation are conducted to confirm that the integrated system operates smoothly, with data flowing seamlessly between various components.\\
+System integration in the "Track A Shop: Web App" project is a critical process where all the individual components and modules of the system are combined and tested to ensure they function as a unified, cohesive unit \citep{smith2017microservices}. This integration involves merging the backend functionalities, including database management and server operations, with the frontend user interface to create a seamless and functional application. The integration process also incorporates third-party services, such as image recognition \citep{aws-rekognition}, mapping APIs \citep{google-maps-docs} and Deployment on AWS/Heroku \citep{heroku-docs}, ensuring their proper interaction within the application. Rigorous testing and validation are conducted to confirm that the integrated system operates smoothly, with data flowing seamlessly between various components.\\
 Achieving a successful integration is vital for delivering a reliable, efficient, and feature-rich web application that can be run on any environment and on any web browser, meets the needs and expectations of both sellers and customers. 
 
 \section{User Interface}
-The user interface (UI) of the "Track A Shop: Web App" project is crafted to deliver a seamless and engaging experience for both sellers and customers. Sellers are provided with a comprehensive dashboard offering insights into their shops, order requests, and sales statistics. They can efficiently manage their shop listings, adding new products/services and updating existing ones. On the other hand, customers are greeted with an intuitive interface that allows effortless browsing of nearby shops and their offerings, categorized for easy exploration. The search functionality is versatile, enabling customers to search by text, images, or based on their preferences. Clear product/service details, interactive maps for shop locations, easy order request processes, and a user-friendly profile management system further enhance the overall usability. The UI is designed to be accessible and responsive to various type of devices and user needs, ultimately fostering a positive and satisfying interaction for all users.
+The user interface (UI) of the "Track A Shop: Web App" project is crafted to deliver a seamless and engaging experience for both sellers and customers. Sellers are provided with a comprehensive dashboard offering insights into their shops, order requests, and sales statistics. They can efficiently manage their shop listings, adding new products/services and updating existing ones. On the other hand, customers are greeted with an intuitive interface that allows effortless browsing of nearby shops and their offerings, categorized for easy exploration. The search functionality is versatile, enabling customers to search by text, images, or based on their preferences. Clear product/service details, interactive maps for shop locations \citep{google-maps-docs}, easy order request processes, and a user-friendly profile management system further enhance the overall usability. The UI is designed to be accessible and responsive to various type of devices and user needs, ultimately fostering a positive and satisfying interaction for all users \citep{wiki-hci}.
 \newpage
 
 \begin{figure}[h]
@@ -221,7 +221,7 @@ Here are some minimal requirements of hardware to run this Web Application:
 
 
 \section{Evaluation}
-Each element of our website is meticulously designed based on the findings of Market Shop Sellers and Customer Research, which takes into account criteria such as technical knowledge, and comprehension.The user is given a seamless experience, allowing them to easily see, update, upload, and manage their data. While designing the website, Human Computer Interaction concepts were taken into account, allowing the user to see where they are presently working and easy to use. Before releasing the website, we make sure that all of the tabs and buttons are visible and double-checked and everything is working properly. Once the website is ready for the user, it will be extensively tested and any necessary changes will be done. Hence the website is user friendly and unambiguous.
+Each element of our website is meticulously designed based on the findings of Market Shop Sellers and Customer Research, which takes into account criteria such as technical knowledge, and comprehension.The user is given a seamless experience, allowing them to easily see, update, upload, and manage their data. While designing the website, Human Computer Interaction concepts \citep{wiki-hci} were taken into account, allowing the user to see where they are presently working and easy to use. Before releasing the website, we make sure that all of the tabs and buttons are visible and double-checked and everything is working properly. Once the website is ready for the user, it will be extensively tested and any necessary changes will be done. Hence the website is user friendly and unambiguous.
 
 \section{Unit Testing}
 
@@ -229,15 +229,15 @@ Unit testing is a crucial component of the development process in "Track A Shop:
 
 In this project, unit testing will encompass the following aspects:
 
-\subsection{Frontend Components} Test individual frontend components like UI elements, input fields, buttons, and their respective functionalities to ensure proper rendering and interactivity.
+\subsection{Frontend Components} Test individual frontend components \citep{reactjs-docs}, like UI elements, input fields, buttons, and their respective functionalities to ensure proper rendering and interactivity.
 	
-\subsection{Backend API Endpoints} Test the backend API endpoints using testing frameworks to verify their response, data integrity, error handling, and authentication mechanisms.
+\subsection{Backend API Endpoints} Test the backend API endpoints using testing frameworks to verify their response, data integrity, error handling, and authentication mechanisms \citep{postman-docs}.
 	
 \subsection{Database Interactions} Test the interactions with the database, including CRUD operations, to ensure accurate data retrieval, storage, and manipulation.
 	
-\subsection{Integration Testing} Conduct integration tests to validate the interaction and communication between different modules, ensuring the overall system functions seamlessly.
+\subsection{Integration Testing} Conduct integration tests to validate the interaction and communication between different modules, ensuring the overall system functions seamlessly \citep{rest-arch}.
 	
-\subsection{Error Handling and Edge Cases} Perform tests to evaluate the system's behavior under various error conditions and edge cases to guarantee robustness and graceful error handling.
+\subsection{Error Handling and Edge Cases} Perform tests to evaluate the system's behavior under various error conditions and edge cases to guarantee robustness and graceful error handling \citep{sentry-docs}.
 
 
 Adopting a comprehensive unit testing strategy will enhance the project's quality, reduce bugs, and provide a stable and reliable application for users.
@@ -690,7 +690,7 @@ Functional testing is a critical aspect of ensuring the "Track A Shop" web appli
 
 Functional testing for this project encompasses the following areas:
 
-\subsection{User Authentication and Authorization} Validate the authentication process to ensure users can securely create accounts, log in, and access appropriate functionalities based on their roles.
+\subsection{User Authentication and Authorization} Validate the authentication process to ensure users can securely create accounts, log in, and access appropriate functionalities based on their roles \citep{oauth-spec}.
 
 \subsection{Product and Service Listings} Verify that sellers can effectively list their products and services using various methods, including image recognition and manual entry, and customers can view and search these listings.
 
@@ -715,7 +715,7 @@ Functional testing for this web application necessitates a comprehensive approac
 \subsubsection{User Authentication:}
 	\begin{itemize}
 		\item Verify that users can create accounts securely with the necessary role and personal information.
-		\item Test login functionality, ensuring users can authenticate themselves with correct credentials.
+		\item Test login functionality, ensuring users can authenticate themselves with correct credentials \citep{oauth-spec}.
 		\item Validate the behavior of the system in case of incorrect login attempts, including appropriate error messages.
 	\end{itemize}
 	
